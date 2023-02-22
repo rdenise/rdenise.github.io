@@ -4,6 +4,6 @@ collection: talks
 type: "Poster"
 permalink: /talks/2018-poster-3
 venue: "Boris Ephrussi Day"
-date: 2018
+date: "2018"
 location: "Paris, France"
 ---

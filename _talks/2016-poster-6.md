@@ -4,6 +4,6 @@ collection: talks
 type: "Poster"
 permalink: /talks/2016-poster-6
 venue: "Young Researcher in Life Science"
-date: 2016
+date: "2016"
 location: "Paris, France"
 ---

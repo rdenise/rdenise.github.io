@@ -4,6 +4,6 @@ collection: talks
 type: "Poster"
 permalink: /talks/2017-poster-4
 venue: "JOBIM"
-date: 2017
+date: "2017"
 location: "Lille, France"
 ---
