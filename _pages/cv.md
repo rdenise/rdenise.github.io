@@ -20,7 +20,7 @@ Work experience
 * 2021- Current time: Postdoctoral Researcher & MSCA Fellow
   * University College Cork
   * Topic: Diversity of bacteriophages in the ancien human microbiomes
-  * Supervision: Andrey Shkoporov 
+  * Supervision: Andrey Shkoporov, Colin Hill & Christina Warinner
   
 * 2020-2021: Postdoctoral Researcher 
   * University of Florida

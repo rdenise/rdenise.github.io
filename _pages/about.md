@@ -17,4 +17,4 @@ I am a computational microbiologist. I am interested in the study of ancient mic
 
 **About this website**
 
-This is a website that is powered by the [academicpages template](https://github.com/academicpages/academicpages.github.io) and hosted on [GitHub pages](https://pages.github.com). This template was forked from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/) created by Michael Rose and then extended.
+This website is still under development. In particular, more content about my projects will come soon.
