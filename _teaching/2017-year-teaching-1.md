@@ -10,7 +10,8 @@ location: "Paris, France"
 
 Graduate Teaching Assistant for the first and second year bachelor students in Life Sciences at Sorbonne University
 
-## LV101 - LU1SV001 -  Molecules to organisms
+LV101 - LU1SV001 -  Molecules to organisms
+==========================================
 
 ### Summary:
  
@@ -23,7 +24,8 @@ The objective is to sensitize students to the double feature of diversity and un
 - Split Cell
 - Chromatographic analysis of a cell extract
 
-## LU2SV385 - Programmation for biologists
+LU2SV385 - Programmation for biologists
+=======================================
 
 ### Summary:
 
