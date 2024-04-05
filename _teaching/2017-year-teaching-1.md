@@ -4,7 +4,7 @@ collection: teaching
 type: "Undergraduate course"
 permalink: /teaching/2017-teaching-1
 venue: "Pierre and Marie Curie University, Sorbonne University"
-date: 2017
+date: 2017-09-01
 location: "Paris, France"
 ---
 
