@@ -8,6 +8,8 @@ date: 2017-09-01
 location: "Paris, France"
 ---
 
+Graduate Teaching Assistant for the first and second year bachelor students in Life Sciences at Sorbonne University
+
 # LV101 - LU1SV001 -  Molecules to organisms
 
 ## Summary:
@@ -27,7 +29,7 @@ The objective is to sensitize students to the double feature of diversity and un
 
 Introduction to Computer Science introduces the fundamental concepts of programming in the Python language and provides a first approach to basic algorithmic concepts, reusable across all programming languages. It aims to overcome the usual difficulties in understanding computer science in particular and modeling in general. The goal is to provide an introduction to abstraction: what does it mean to represent something in a computer? What does it mean to analyze and categorize a problem? What is a method? How can it be expressed abstractly to be automated? Finally, how can it be implemented in a computer program.
 
-# Program: 
+## Program: 
 
 - Simple calculations (booleans, numbers, expressions)
 - Imperative principles (variables, instructions, sequences, etc.)

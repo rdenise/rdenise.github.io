@@ -8,7 +8,7 @@ date: 2015-09-01
 location: "Paris, France"
 ---
 
-Help to understand the following courses for first year bachelor students in Life Sciences at Sorbonne University:
+Help to understand the courses for first year bachelor students in Life Sciences at Sorbonne University:
 
 - LV101 -  Molecules to organisms
 

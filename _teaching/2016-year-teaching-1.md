@@ -8,6 +8,8 @@ date: 2016-09-01
 location: "Paris, France"
 ---
 
+Graduate Teaching Assistant for the first year bachelor students in Life Sciences at Sorbonne University
+
 # LV101 - LU1SV001 -  Molecules to organisms
 
 ## Summary:
