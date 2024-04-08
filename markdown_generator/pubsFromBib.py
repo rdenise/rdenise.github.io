@@ -16,13 +16,12 @@
 # TODO: Merge this with the existing TSV parsing solution
 
 
-from pybtex.database.input import bibtex
-import pybtex.database.input.bibtex 
 from time import strptime
-import string
 import html
 import os
 import re
+from pybtex.database.input import bibtex
+import pybtex.database.input.bibtex 
 
 #todo: incorporate different collection types rather than a catch all publications, requires other changes to template
 publist = {
@@ -70,18 +69,16 @@ for pubsource in publist:
         try:
             pub_year = f'{b["year"]}'
 
-            #todo: this hack for month and day needs some cleanup
-            if "month" in b.keys(): 
-                if(len(b["month"])<3):
-                    pub_month = "0"+b["month"]
-                    pub_month = pub_month[-2:]
-                elif(b["month"] not in range(12)):
-                    tmnth = strptime(b["month"][:3],'%b').tm_mon   
-                    pub_month = "{:02d}".format(tmnth) 
-                else:
-                    pub_month = str(b["month"])
-            if "day" in b.keys(): 
-                pub_day = str(b["day"])
+            # Clean up month
+            pub_month = b.get("month", "")
+            if pub_month:
+                pub_month = strptime(pub_month[:3], '%b').tm_mon
+                pub_month = "{:02d}".format(pub_month)
+
+            # Clean up day
+            pub_day = b.get("day", "")
+            if pub_day:
+                pub_day = str(pub_day)
 
                 
             pub_date = pub_year+"-"+pub_month+"-"+pub_day
