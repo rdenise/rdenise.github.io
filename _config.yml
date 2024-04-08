@@ -3,9 +3,10 @@
 # This config file is meant for settings that affect your entire site, values
 # which you are expected to set up once and rarely need to edit after that.
 # For technical reasons, this file is *NOT* reloaded automatically when you use
-# `jekyll serve`. If you change this file, please restart the server process.
+# `jekyll serve -l -H localhost`. If you change this file, please restart the 
+# server process.
 
-# Site Settings
+# Basic Site Settings
 locale                   : "en-US"
 title                    : "Remi Denise 's Web Site"
 title_separator          : "-"
@@ -14,6 +15,64 @@ description              : &description "personal description"
 url                      : https://rdenise.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "rdenise/rdenise.github.io"
+
+# Site Author - The following control what appear as part of the author content on the side bar.
+#               If a field is blank the icon and link will not appear, otherwise it will be shown.
+#               Additional customization can be done by editing /_includes/author-profile.html
+author:
+  # Biographic information
+  avatar           : "22-131-4795_background.jpg"
+  name             : "Remi Denise"
+  pronouns         : "he/his" 
+  bio              : "MSCA Postdoctoral Fellow"
+  location         : "Cork, Ireland"
+  employer         : "APC Microbiome Ireland, University Cork College"
+  uri              :
+  email            : "rdenise@ucc.ie"
+
+  # Academic websites
+  arxiv            : # URL - Update with the correct link to your profile
+  googlescholar    : "https://scholar.google.com/citations?hl=fr&view_op=list_works&gmla=AJsN-F5tJjTWjFxzevr9tlP2tboOJKJ6RBLjTYIdfs8ppGNhtLlPni0Q5HYVAgujOSJTjb7ok-ZgdR-uAbTYJWltb82hdQwd_kVNDnYyy8Fd7rib9p9uuBQ&user=hAhbGqkAAAAJ"
+  impactstory      : #"https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
+  orcid            : "https://orcid.org/0000-0003-2277-689X"
+  pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=remi+denise"
+  researchgate     :  "https://www.researchgate.net/profile/Remi-Denise"
+
+  # Repositories and software development
+  bitbucket        :
+  codepen          :
+  dribbble         :
+  github           : "rdenise"
+  kaggle           : # Username
+  stackoverflow    : # http://stackoverflow.com/users/123456/username
+
+  # Social media
+  bluesky          : # Username
+  facebook         : # Username
+  flickr           : # Username
+  foursquare       : # Username
+  goodreads        : # Username
+  google_plus      : # Username
+  keybase          : # Username
+  instagram        : # Username
+  lastfm           : # Username
+  linkedin         : "https://www.linkedin.com/in/remidenise/"
+  mastodon         : "https://mstdn.science/@remidenise"
+  medium           : # URL
+  pinterest        : # Username
+  soundcloud       : # Username
+  steam            : # Username
+  telegram         : # URL
+  tumblr           : # Username
+  twitter          : "remidenise"
+  vine             : # Username
+  weibo            : # Username
+  wikipedia        : # Username
+  xing             : # Username
+  youtube          : # Username
+  zhihu            : # URL
+
+# Site Settings
 teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
 breadcrumbs              : false # true, false (default)
 words_per_minute         : 160
@@ -47,6 +106,7 @@ staticman:
       options:
         format           : "iso8601" # "iso8601" (default), "timestamp-seconds", "timestamp-milliseconds"
 atom_feed:
+  hide                   : false     # change to true to hide the RSS feed in the footer
   path                   : # blank (default) uses feed.xml
 
 # SEO Related
@@ -73,48 +133,9 @@ social:
 
 # Analytics
 analytics:
-  provider               :  "google-universal" # false (default), "google", "google-universal", "custom"
+  provider               :  "google-universal" # false (default), "google", "google-universal", "google-analytics-4", "custom"
   google:
     tracking_id          :
-
-
-# Site Author
-author:
-  name             : "Remi Denise"
-  avatar           : "22-131-4795_background.jpg"
-  bio              : "MSCA Postdoctoral Fellow, APC Microbiome"
-  location         : "Cork, Ireland"
-  employer         : "University Cork College"
-  pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=remi+denise"
-  googlescholar    : "https://scholar.google.com/citations?hl=fr&view_op=list_works&gmla=AJsN-F5tJjTWjFxzevr9tlP2tboOJKJ6RBLjTYIdfs8ppGNhtLlPni0Q5HYVAgujOSJTjb7ok-ZgdR-uAbTYJWltb82hdQwd_kVNDnYyy8Fd7rib9p9uuBQ&user=hAhbGqkAAAAJ"
-  email            :
-  researchgate     :  "https://www.researchgate.net/profile/Remi-Denise"
-  uri              :
-  bitbucket        :
-  codepen          :
-  dribbble         :
-  flickr           :
-  facebook         :
-  foursquare       :
-  github           : "rdenise"
-  google_plus      :
-  keybase          :
-  instagram        :
-  impactstory      : #"https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
-  lastfm           :
-  linkedin         : "https://www.linkedin.com/in/remidenise/"
-  orcid            : "https://orcid.org/0000-0003-2277-689X"
-  pinterest        :
-  soundcloud       :
-  stackoverflow    : # http://stackoverflow.com/users/123456/username
-  steam            :
-  tumblr           :
-  twitter          : "remidenise"
-  vine             :
-  weibo            :
-  xing             :
-  youtube          :
-  wikipedia        :
 
 
 # Reading Files
