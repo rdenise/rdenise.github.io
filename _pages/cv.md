@@ -32,6 +32,15 @@ Work experience
   * Topic: Understanding event of evolution of the Type IV Filament super family
   * Supervision: Eduardo Rocha & Sophie Abby
 
+Scientific outreach activities
+======
+* Organization of conferences:
+  * 2019: [Alphy meeting](https://lbbe-dmz.univ-lyon1.fr/alphy-legacy/lbbe-dmz.univ-lyon1.fr/spip_alphy/spip349d.html?article70) (MNHN - Paris, France)
+  * 2019: [Boris Ephrussi Day](https://sites.google.com/site/journeeborisephrussi/) (Ecole Normale Supérieure - Paris, France)
+  * 2018: [YRLS](http://yr2i.org/wp-content/uploads/2018/02/poster_YRLS_2018_VFinale2-copie.jpg) (Ecole Normale Supérieure - Paris, France)
+  * 2018: [Boris Ephrussi Day](https://sites.google.com/site/journeeborisephrussi/) (Sorbonne University - Campus Jussieu - Paris, France)
+  * 2017: [Boris Ephrussi Day](https://sites.google.com/site/journeeborisephrussi/) (Institut Pasteur - Paris, France)
+
 Publications
 ======
   <ul>{% for post in site.publications reversed %}
