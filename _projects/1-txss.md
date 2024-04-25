@@ -3,6 +3,7 @@ title: 'Bacterial Secretion Systems'
 date: 2024-04-25
 description: We study the evolution and diversity of bacterial secretion systems.
 img: images/tff.png
+layout: single
 importance: 1
 permalink: /projects/1-txss/
 category: work
