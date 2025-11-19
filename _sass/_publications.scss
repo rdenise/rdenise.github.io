@@ -17,6 +17,13 @@
     margin-left: 0;
 }
 
+/* Remove default list padding */
+.publications ul {
+  padding-left: 0;
+  margin-left: 0;
+  list-style: none;
+}
+
 .publications > .archive__item-excerpt {
   margin-top: 0;
   font-size: 1rem;
@@ -105,14 +112,15 @@
 /* Adjust content margin for teaching items with larger badges */
 .teaching-level + .pub-content {
   margin-left: 110px;
-  margin-top: 15px;
+  margin-top: 0;
+  padding-top: 20px;
 }
 
 /* Teaching item two-column layout */
 .teaching-item {
   display: flex;
   justify-content: space-between;
-  align-items: flex-start;
+  align-items: center;
   width: 100%;
 }
 
@@ -121,13 +129,16 @@
   padding-right: 1rem;
 }
 
+.teaching-main h3 {
+  margin-top: 0;
+}
+
 .teaching-location {
   flex-shrink: 0;
   min-width: 150px;
   max-width: 250px;
   text-align: right;
   color: #666;
-  padding-top: 6px;
 }
 
 .pub-content {
