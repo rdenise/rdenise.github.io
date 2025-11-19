@@ -43,18 +43,24 @@ Scientific outreach activities
 
 Publications
 ======
+  <div class="publications">
   <ul>{% for post in site.publications reversed %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
+  </div>
   
 Talks
 ======
+  <div class="publications">
   <ul>{% for post in site.talks reversed %}
     {% include archive-single-talk-cv.html  %}
   {% endfor %}</ul>
+  </div>
   
 Teaching
 ======
+  <div class="publications">
   <ul>{% for post in site.teaching reversed %}
-    {% include archive-single-cv.html %}
+    {% include archive-single-teaching-cv.html %}
   {% endfor %}</ul>
+  </div>
