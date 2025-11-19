@@ -65,8 +65,13 @@
   z-index: 0;
 }
 
-/* Remove the line after the last item in publications section */
-.publications .list__item:last-child .pub-date::after {
+/* Remove the line after the last item in any section */
+.list__item:last-child .pub-date::after {
+  display: none;
+}
+
+/* Remove the line before the first item in any section */
+.list__item:first-child .pub-date::before {
   display: none;
 }
 
