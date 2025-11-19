@@ -58,11 +58,16 @@
   content: '';
   position: absolute;
   left: 50%;
-  height: 150px;
+  height: 100px;
   width: 1px;
-  bottom: -150px;
+  bottom: -100px;
   border-left: 1px solid #404040;
   z-index: 0;
+}
+
+/* Remove the line after the last item in publications section */
+.publications .list__item:last-child .pub-date::after {
+  display: none;
 }
 
 .pub-content {
