@@ -36,17 +36,20 @@
     <br>
 
     <!-- Add links to additional information -->
-    {% if post.oa_paperurl %}
-      <a href="{{ post.oa_paperurl }}" rel="permalink"><i class="ai ai-open-access-square ai-2x"></i></a>
+    {% if post.paperurl %}
+      <a href="{{ post.paperurl }}" rel="permalink"><i class="fa fa-fw fa-chain" aria-hidden="true"></i></a>
     {% endif %}
     {% if post.githuburl %}
-      <a href="{{ post.githuburl }}" rel="permalink"><i class="fab fa-github fa-2x" aria-hidden="true"></i></a>
+      <a href="{{ post.githuburl }}" rel="permalink"><i class="fab fa-github" aria-hidden="true"></i></a>
+    {% endif %}
+    {% if post.code %}
+      <a href="{{ post.code }}" rel="permalink"><i class="fab fa-github" aria-hidden="true"></i></a>
     {% endif %}
     {% if post.osfurl %}
-      <a href="{{ post.osfurl }}" rel="permalink"><i class="ai ai-osf ai-2x"></i></a>
+      <a href="{{ post.osfurl }}" rel="permalink"><i class="ai ai-osf" aria-hidden="true"></i></a>
     {% endif %}
     {% if post.relatedurl %}
-      <a href="{{ post.relatedurl }}" rel="permalink"><b><font size="+3">∼</font></b></a>
+      <a href="{{ post.relatedurl }}" rel="permalink"><b><font size="+2">∼</font></b></a>
     {% endif %}
     </p>
  </article>

@@ -12,19 +12,17 @@
 
 .publications > .archive__item-excerpt {
   margin-top: 0;
-  font-size: 1.25rem;
+  font-size: 1rem;
 }
 
 .publications a {
     color: #494e52;
     text-decoration: none;
-    font-size: 1rem;
 }
 
 .publications a:hover {
     color: #52adc8;
     text-decoration: none;
-    margin-left: 10px;
 }
 
 .pub-date {
@@ -42,6 +40,7 @@
   position: relative;
   padding: 11px 0;
   text-align: center;
+  margin-top: 0;
 }
 
 .pub-date::before {
@@ -71,9 +70,8 @@
   margin-right: 5px;
   padding-top: 6px;
   padding-bottom: 20px;
-  font-size: 15px;
-  max-height: 200px;
-  overflow: hidden;
+  font-size: 1rem;
+  overflow: visible;
 }
 
 .pub-content::before, .pub-content::after {
@@ -82,5 +80,44 @@
 }
 
 .pub-content p {
-    margin-top: 0
+    margin-top: 0;
+    margin-bottom: 0.5em;
+    color: #494e52;
+    line-height: 1.6;
+}
+
+.pub-content a {
+  color: #494e52;
+  text-decoration: none;
+  font-size: 1rem;
+}
+
+.pub-content a:hover {
+  color: #52adc8;
+}
+
+/* Icon styling for publication links */
+.pub-content a i.fa-chain,
+.pub-content a i.fa-github,
+.pub-content a i.ai-osf,
+.pub-content a i.ai-open-access-square {
+  font-size: 1.5rem;
+  margin-left: 0.2rem;
+  margin-right: 0.2rem;
+  color: #494e52;
+  vertical-align: middle;
+}
+
+.pub-content a:hover i {
+  color: #52adc8;
+}
+
+/* Make sure bold text in citations is properly weighted */
+.pub-content b {
+  font-weight: 600;
+}
+
+/* Make sure italic text in citations is properly styled */
+.pub-content i:not(.fa):not(.fab):not(.ai) {
+  font-style: italic;
 }
