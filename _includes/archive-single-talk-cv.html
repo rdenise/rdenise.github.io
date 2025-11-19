@@ -24,6 +24,8 @@
   {% assign year = post.date | date: "%Y" %}
 {% endif %}
 
+{% include base_path %}
+
 <div class="{{ include.type | default: "list" }}__item" style="margin-left: 40px;">
   <div class="pub-date">
     {{ year }}
@@ -31,33 +33,50 @@
   <div class="pub-content">
   <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork"> 
 
-    <!-- Create talk description -->
-    <p class="archive__item-excerpt" itemprop="description">
-    <!-- Deliver talk info -->
-    {% if post.talkurl %}
-      <a href="{{ post.talkurl }}">
-    {% endif %}
-    <b>{{ title }}</b>
-    {% if post.talkurl %}
-      </a>
-    {% endif %}
-    {% if post.type %}, {{ post.type }}{% endif %}{% if post.venue %}, <i>{{ post.venue }}</i>{% endif %}{% if post.location %}, {{ post.location }}{% endif %}{% if post.date %}, {{ post.date }}{% endif %}
-    <br>
+    <!-- Create talk description with two-column layout -->
+    <div class="talk-item">
+      <div class="talk-main">
+        <!-- Title linked to detail page -->
+        <p class="archive__item-excerpt" itemprop="description" style="margin-bottom: 0.25em;">
+          <a href="{{ base_path }}{{ post.url }}" rel="permalink"><b>{{ title }}</b></a>
+        </p>
+        
+        <!-- Venue and conference link -->
+        {% if post.venue %}
+        <p style="margin-top: 0; margin-bottom: 0.5em; font-size: 0.9rem;">
+          {% if post.type %}<span style="color: #666;">{{ post.type }}</span> at {% endif %}<i>{{ post.venue }}</i>
+          {% if post.conferenceurl %}
+          <br><a href="{{ post.conferenceurl }}" target="_blank" style="font-size: 0.85rem;"><i class="fa fa-external-link" aria-hidden="true"></i> Conference website</a>
+          {% endif %}
+        </p>
+        {% endif %}
 
-    <!-- Add links to additional information -->
-    {% if post.talkurl %}
-      <a href="{{ post.talkurl }}" rel="permalink"><i class="fa fa-fw fa-chain" aria-hidden="true"></i></a>
-    {% endif %}
-    {% if post.slidesurl %}
-      <a href="{{ post.slidesurl }}" rel="permalink"><i class="fa fa-fw fa-file-pdf-o" aria-hidden="true"></i></a>
-    {% endif %}
-    {% if post.posterurl %}
-      <a href="{{ post.posterurl }}" rel="permalink"><i class="fa fa-fw fa-image" aria-hidden="true"></i></a>
-    {% endif %}
-    {% if post.videourl %}
-      <a href="{{ post.videourl }}" rel="permalink"><i class="fa fa-fw fa-video-camera" aria-hidden="true"></i></a>
-    {% endif %}
-    </p>
+        <!-- Add links to additional materials -->
+        {% if post.slidesurl or post.posterurl or post.videourl or post.talkurl %}
+        <p style="margin-top: 0.5em;">
+          {% if post.talkurl %}
+            <a href="{{ post.talkurl }}" rel="permalink"><i class="fa fa-fw fa-chain" aria-hidden="true"></i></a>
+          {% endif %}
+          {% if post.slidesurl %}
+            <a href="{{ post.slidesurl }}" rel="permalink"><i class="fa fa-fw fa-file-pdf-o" aria-hidden="true"></i></a>
+          {% endif %}
+          {% if post.posterurl %}
+            <a href="{{ post.posterurl }}" rel="permalink"><i class="fa fa-fw fa-image" aria-hidden="true"></i></a>
+          {% endif %}
+          {% if post.videourl %}
+            <a href="{{ post.videourl }}" rel="permalink"><i class="fa fa-fw fa-video-camera" aria-hidden="true"></i></a>
+          {% endif %}
+        </p>
+        {% endif %}
+      </div>
+      
+      <!-- Location in right column -->
+      {% if post.location %}
+      <div class="talk-location">
+        {{ post.location }}
+      </div>
+      {% endif %}
+    </div>
  </article>
  </div>
 </div>

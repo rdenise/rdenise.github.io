@@ -124,3 +124,40 @@
 .pub-content i:not(.fa):not(.fab):not(.ai) {
   font-style: italic;
 }
+
+/* Talk item two-column layout */
+.talk-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 100%;
+}
+
+.talk-main {
+  flex: 1;
+  padding-right: 1rem;
+}
+
+.talk-location {
+  flex-shrink: 0;
+  text-align: right;
+  color: #666;
+  font-size: 0.9rem;
+  min-width: 150px;
+  padding-left: 1rem;
+}
+
+/* Responsive layout for smaller screens */
+@media (max-width: 768px) {
+  .talk-item {
+    flex-direction: column;
+  }
+  
+  .talk-location {
+    text-align: left;
+    padding-left: 0;
+    padding-top: 0.5rem;
+    margin-top: 0.5rem;
+    border-top: 1px solid #e0e0e0;
+  }
+}
