@@ -4,7 +4,7 @@
 
 /* Remove left padding from section headers that precede publication sections */
 .page__content h2 {
-  margin-left: -1em;
+  margin-left: 0;
   padding-left: 0;
 }
 
@@ -14,7 +14,7 @@
     padding-top: 1em;
     padding-left: 0;
     padding-right: 1rem;
-    margin-left: -1em;
+    margin-left: 0;
 }
 
 .publications > .archive__item-excerpt {
@@ -85,23 +85,27 @@
 
 /* Teaching level badge - circular like year badges */
 .pub-date.teaching-level {
-  width: 80px;
-  height: 80px;
-  padding: 10px;
-  line-height: 1.2;
-  font-size: 0.7rem;
+  width: 90px;
+  height: 90px;
+  padding: 8px;
+  line-height: 1.1;
+  font-size: 0.65rem;
   white-space: normal;
   word-wrap: break-word;
+  overflow-wrap: break-word;
+  hyphens: auto;
   display: flex;
   align-items: center;
   justify-content: center;
   text-align: center;
   border-radius: 50%;
+  overflow: hidden;
 }
 
 /* Adjust content margin for teaching items with larger badges */
 .teaching-level + .pub-content {
-  margin-left: 100px;
+  margin-left: 110px;
+  margin-top: 15px;
 }
 
 /* Teaching item two-column layout */
