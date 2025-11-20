@@ -36,7 +36,8 @@ To address these challenges, we developed a hierarchical workflow for viral dete
 4.  **Viral Detection**: Using machine learning tools (e.g., geNomad, Jaeger) to identify viral signals in contigs.
 5.  **Discovery**: Identifying potential novel viral sequences from the assembled contigs.
 
-![Hierarchical workflow for viral detection](/assets/images/archaic/image1.png)
+![Hierarchical workflow for viral detection](/assets/images/archaic/fig1_aDNA.png)
+
 *Figure 1: Hierarchical workflow for viral detection, abundance estimation, and discovery from ancient biological samples.*
 
 ## Key Findings
@@ -52,11 +53,12 @@ Assembling reads into contigs significantly improved the detection of viral geno
 *   **Contig assembly** helps bridge the gap caused by DNA fragmentation, allowing for the recovery of more complete viral genomes.
 *   **Binning** tools like taxVAMB can cluster fragmented viral contigs into high-quality viral metagenome-assembled genomes (vMAGs).
 
-![Taxonomic profiling and validation](/assets/images/archaic/image3.png)
+![Taxonomic profiling and validation](/assets/images/archaic/fig3_aDNA.png)
+
 *Figure 2: Taxonomic profiling and validation of viral species from ancient samples. The process highlights the reduction in potential viral species after rigorous validation.*
 
 ## Conclusion
 
-Our findings demonstrate that a multi-faceted approach—combining taxonomic profiling, genome mapping, and *de novo* assembly—is required to accurately reconstruct ancient viral communities. This framework not only enhances our ability to detect known phages but also opens the door to discovering novel viral diversity in the archaeological record.
+Our findings demonstrate that a multi-faceted approach, combining taxonomic profiling, genome mapping, and *de novo* assembly, is required to accurately reconstruct ancient viral communities. This framework not only enhances our ability to detect known phages but also opens the door to discovering novel viral diversity in the archaeological record.
 
 **Funding**: This project is supported by the European Union’s Horizon 2021-2027 research and innovation programme under the Marie Skłodowska Curie grant agreement N° [101111040](https://cordis.europa.eu/project/id/101111040).
