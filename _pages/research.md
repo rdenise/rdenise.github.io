@@ -1,13 +1,12 @@
 ---
-layout: archive
+layout: research-home
 title: "Research"
 permalink: /research/
 author_profile: true
+target_collection: research
+themes: [archaic, plp, tff]
 ---
 
-{% include base_path %}
+I am mainly interested in... (Add your research intro here)
 
-
-{% for post in site.research %}
-  {% include archive-single.html %}
-{% endfor %}
+## Research Themes

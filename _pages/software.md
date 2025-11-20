@@ -1,13 +1,12 @@
 ---
-layout: archive
+layout: research-home
 title: "Software"
 permalink: /software/
 author_profile: true
+target_collection: software
+themes: [taxmyphage, macsyfinder]
 ---
 
-{% include base_path %}
+I develop open-source software... (Add your software intro here)
 
-
-{% for post in site.software %}
-  {% include archive-single.html %}
-{% endfor %}
+## Software Projects

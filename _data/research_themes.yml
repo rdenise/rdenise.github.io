@@ -1,0 +1,29 @@
+archaic:
+  title: "ARCHAIC"
+  description: "MSCA Postdoc Fellowship project."
+  icon: "fa-history"
+  color: "#e74c3c"
+
+plp:
+  title: "PLP biosynthesis pathway"
+  description: "Research on PLP biosynthesis pathway."
+  icon: "fa-flask"
+  color: "#3498db"
+
+tff:
+  title: "TFF family"
+  description: "We study the evolution and diversity of bacterial secretion systems."
+  icon: "fa-dna"
+  color: "#2ecc71"
+
+taxmyphage:
+  title: "TaxMyPhage"
+  description: "Tool for phage taxonomy."
+  icon: "fa-bug"
+  color: "#9b59b6"
+
+macsyfinder:
+  title: "MacSyFinder"
+  description: "Detection of macromolecular systems in genomes."
+  icon: "fa-search"
+  color: "#f1c40f"
