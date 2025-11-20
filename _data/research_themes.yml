@@ -1,7 +1,7 @@
 archaic:
   title: "ARCHAIC"
-  description: "MSCA Postdoc Fellowship project."
-  icon: "fa-history"
+  description: "Strategies for the discovery of bacteriophages from ancient DNA."
+  icon: "fa-virus"
   color: "#e74c3c"
 
 plp:
