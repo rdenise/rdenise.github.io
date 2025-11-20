@@ -1,7 +1,7 @@
 ---
-title: 'TFF family'
+title: 'Type IV filament super-family and secretion systems'
 date: 2024-04-25
-description: We study the evolution and diversity of bacterial secretion systems.
+description: Evolution and diversity of bacterial secretion systems.
 img: images/tff.png
 layout: single
 importance: 1
@@ -9,9 +9,14 @@ permalink: /research/tff/
 collection: research
 ---
 
-We create [MacSyfinder](https://github.com/gem-pasteur/macsyfinder) models tools for genome annotation to identify these secretion systems in publicly accessible genomes. We then analyze their distribution, evolution, and diversification.
+![Type IV filament super-family](images/tff/fig_all_system.png)
 
-![Diversification TFF-SF](images/fig4_taxonomy_model_less_stringent.png)
+*List of all secretion systems in the type IV filament super-family.*
+
+We create [MacSyfinder](https://github.com/gem-pasteur/macsyfinder) models for genome annotation to identify these secretion systems in publicly accessible genomes. We then analyze their distribution, evolution, and diversification.
+
+![Diversification TFF-SF](images/tff/figure_systems_tree.png)
+
 *Distribution of the type IV filament super-family across the tree of life. Figure from [Denise et al. Plos Biology, 2019](https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.3000390).*
 
 We investigate the evolutionary and diverse nature of bacterial secretion systems. Our research involves developing [MacSyfinder models](https://github.com/macsy-models) for genome annotation to identify these secretion systems in publicly available genomes. We then analyze their distribution, evolution, and diversification.
@@ -20,5 +25,6 @@ We have created specialized genome annotation tools called [TXSScan](https://git
 
 In 2020, we published a [review article](https://www.sciencedirect.com/science/article/pii/S0966842X2030007X?via%3Dihub) that explores the different patterns observed in the evolution of bacterial secretion systems by our team and other researchers.
 
-![Evolution of Protein Secretion Systems](images/fig2_T3SS_T4SS_T6SS_draft_Ved.png)
+![Evolution of Protein Secretion Systems](images/tff/fig_evolution_secretine.png)
+
 *The Evolution of Protein Secretion Systems Delivering Effectors Directly into other Cells. Figure from [Denise et al. 2020](https://www.sciencedirect.com/science/article/pii/S0966842X2030007X?via%3Dihub).*

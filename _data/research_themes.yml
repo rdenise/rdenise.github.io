@@ -6,7 +6,7 @@ archaic:
 
 plp:
   title: "PLP biosynthesis pathway"
-  description: "Research on PLP biosynthesis pathway."
+  description: "Predicting pathway variant distributions and holes in Bacteria and Archaea."
   icon: "fa-flask"
   color: "#3498db"
 
