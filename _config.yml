@@ -205,7 +205,10 @@ collections:
   portfolio:
     output: true
     permalink: /:collection/:path/
-  projects:
+  research:
+    output: true
+    permalink: /:collection/:path/
+  software:
     output: true
     permalink: /:collection/:path/
   talks:
@@ -260,10 +263,19 @@ defaults:
       author_profile: true
       share: true
       comment: true
-  # _projects
+  # _research
   - scope:
       path: ""
-      type: projects
+      type: research
+    values:
+      layout: single
+      author_profile: true
+      share: true
+      comment: true
+  # _software
+  - scope:
+      path: ""
+      type: software
     values:
       layout: single
       author_profile: true
