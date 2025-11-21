@@ -7,6 +7,8 @@ target_collection: research
 themes: [archaic, plp, tff]
 ---
 
-I am mainly interested in... (Add your research intro here)
+My research focuses on the **evolution and diversity of microbial systems**, with a particular emphasis on **bacteriophages** and **bacterial secretion systems**. I combine computational biology, comparative genomics, and tool development to uncover the hidden diversity of the microbial world, from ancient DNA samples to modern bacterial genomes.
+
+Below are the main themes of my current and past research:
 
 ## Research Themes
