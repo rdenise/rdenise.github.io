@@ -11,4 +11,4 @@ open_access: true
 Motor-independent retraction of type IV pili (T4P) is governed by an inherent property of the pilus filament itself, relying on its inherent instability rather than dedicated motor proteins. This mechanism appears to be a conserved feature across various Type IV Filament (T4F) systems. Research utilizing the Vibrio cholerae competence pilus as a model system has revealed key insights into this process. Mutations in the major pilin gene (PilA) that lead to enhanced motor-independent retraction likely do so by diminishing pilin-pilin interactions within the filament, resulting in less stable pili.
 
 
-[![Open Access](/assets/images/open-access.png){: style="width: 20px; height: 20px; vertical-align: middle;"} Access paper here](https://www.ncbi.nlm.nih.gov/pubmed/34789573){:target="_blank"}
+[![Open Access](/assets/images/open-access.png){: style="height: 20px; width: auto; vertical-align: middle;"} Access paper here](https://www.ncbi.nlm.nih.gov/pubmed/34789573){:target="_blank"}

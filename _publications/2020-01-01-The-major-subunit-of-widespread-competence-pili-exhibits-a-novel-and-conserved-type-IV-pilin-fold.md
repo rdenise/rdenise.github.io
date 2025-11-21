@@ -11,4 +11,4 @@ open_access: true
 The major subunit of widespread competence (Com) pili, known as ComGC, exhibits a novel and conserved type IV pilin fold that is purely helical. This discovery stems from genomic, phylogenetic, and structural analyses of ComGC, which is the primary pilin subunit of Com pili. Type IV filaments (T4F), which are helical assemblies of type IV pilins, are filamentous nanomachines found broadly in prokaryotes and are responsible for a variety of functions. The Com pilus is a significant T4F that facilitates DNA uptake in bacteria with a single membrane (monoderms), a crucial initial step in natural transformation and an important mechanism for horizontal gene transfer.
 
 
-[![Open Access](/assets/images/open-access.png){: style="width: 20px; height: 20px; vertical-align: middle;"} Access paper here](https://www.ncbi.nlm.nih.gov/pubmed/32273343){:target="_blank"}
+[![Open Access](/assets/images/open-access.png){: style="height: 20px; width: auto; vertical-align: middle;"} Access paper here](https://www.ncbi.nlm.nih.gov/pubmed/32273343){:target="_blank"}

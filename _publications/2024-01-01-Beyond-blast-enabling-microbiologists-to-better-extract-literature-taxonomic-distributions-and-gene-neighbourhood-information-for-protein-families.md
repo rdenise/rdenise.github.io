@@ -11,4 +11,4 @@ open_access: true
 "Beyond Blast" refers to a published workflow designed to assist microbiologists in more effectively extracting literature, taxonomic distributions, and gene neighborhood information for protein families. This approach aims to provide a comprehensive understanding of protein families beyond what traditional BLAST analyses offer. The workflow was developed and evaluated using a dataset of over 280 references related to the DUF34 protein family. The researchers assessed the efficiency of various databases and search tools to create a method that helps experimentalists capture the most relevant published information on protein families in the shortest time.
 
 
-[![Open Access](/assets/images/open-access.png){: style="width: 20px; height: 20px; vertical-align: middle;"} Access paper here](https://www.ncbi.nlm.nih.gov/pubmed/38323604){:target="_blank"}
+[![Open Access](/assets/images/open-access.png){: style="height: 20px; width: auto; vertical-align: middle;"} Access paper here](https://www.ncbi.nlm.nih.gov/pubmed/38323604){:target="_blank"}

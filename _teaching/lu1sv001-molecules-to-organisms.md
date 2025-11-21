@@ -2,7 +2,7 @@
 title: "LU1SV001 - Molecules to organisms"
 collection: teaching
 type: "Undergraduate course"
-permalink: /teaching/lu1sv001
+permalink: /teaching/lu1sv001/
 venue: "Pierre and Marie Curie University, Sorbonne University"
 location: "Paris, France"
 date: 2018-09-01

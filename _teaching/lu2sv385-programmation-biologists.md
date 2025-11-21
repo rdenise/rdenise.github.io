@@ -2,7 +2,7 @@
 title: "LU2SV385 - Programmation for biologists"
 collection: teaching
 type: "Undergraduate course"
-permalink: /teaching/lu2sv385
+permalink: /teaching/lu2sv385/
 venue: "Pierre and Marie Curie University, Sorbonne University"
 location: "Paris, France"
 date: 2018-09-01

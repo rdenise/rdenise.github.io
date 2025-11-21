@@ -2,7 +2,7 @@
 title: "LU1SV002 - Molecular organisation of the living"
 collection: teaching
 type: "Undergraduate course"
-permalink: /teaching/lu1sv002
+permalink: /teaching/lu1sv002/
 venue: "Pierre and Marie Curie University, Sorbonne University"
 location: "Paris, France"
 date: 2016-09-01

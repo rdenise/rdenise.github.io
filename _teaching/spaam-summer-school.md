@@ -2,7 +2,7 @@
 title: "SPAAM Summer School"
 collection: teaching
 type: "Summer school"
-permalink: /teaching/spaam-summer-school
+permalink: /teaching/spaam/
 venue: "Department of Archaeogenetics, Max Planck Institute for Evolutionary Anthropology"
 date: 2024-08-05
 location: "Leipzig, Germany"

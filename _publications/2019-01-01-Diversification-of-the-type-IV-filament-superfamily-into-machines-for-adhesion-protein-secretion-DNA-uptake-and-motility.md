@@ -11,4 +11,4 @@ open_access: true
 The Type IV filament (TFF) superfamily, a diverse group of membrane-associated molecular systems found in Bacteria and Archaea, has undergone significant diversification, evolving into complex "machines" responsible for various critical cellular functions. These include adhesion, protein secretion, DNA uptake, and motility. Research into the natural history of this superfamily suggests that TFF systems were likely present in the last universal common ancestor. From this ancient origin, two distinct lineages—one bacterial and one archaeal—diversified through mechanisms such as multiple gene duplications, gene fissions and deletions, and the acquisition of novel components.
 
 
-[![Open Access](/assets/images/open-access.png){: style="width: 20px; height: 20px; vertical-align: middle;"} Access paper here](https://www.ncbi.nlm.nih.gov/pubmed/31323028){:target="_blank"}
+[![Open Access](/assets/images/open-access.png){: style="height: 20px; width: auto; vertical-align: middle;"} Access paper here](https://www.ncbi.nlm.nih.gov/pubmed/31323028){:target="_blank"}
