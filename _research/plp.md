@@ -12,13 +12,15 @@ toc: true
 
 **Pyridoxal 5’-phosphate (PLP)** is a cofactor derived from B6 vitamers and is essential for growth in all known organisms.
 
-## Introduction
-
 PLP synthesis and salvage pathways are well characterized in a few model species, yet key components, such as vitamin B6 transporters, remain unidentified in many organisms, including model bacteria like *Escherichia coli* and *Bacillus subtilis*.
 
-## Study Overview
+## Overview
 
 Using a comparative genomic approach, we predicted PLP synthesis and salvage pathways in **5840 bacterial and archaeal species** with complete genomes. This comprehensive survey analyzed the distribution of the two known *de novo* biosynthesis pathways and previously identified cases of non-orthologous displacements.
+
+![PLP synthesis pathways](/assets/images/plp/plp_pathways.png)
+
+*The different PLP synthesis pathways*
 
 ## Key Findings
 
@@ -38,8 +40,9 @@ This work serves as a starting point to:
 *   Predict the sensitivity of organisms to drugs targeting PLP synthesis enzymes.
 *   Identify gaps in knowledge ("holes") that require experimental validation.
 
-*[Insert Figure 1: Distribution of PLP synthesis pathways]*
 
-*[Insert Figure 2: Pathway variants and holes]*
+![Distribution of PLP synthesis pathways](/assets/images/plp/plp_distributions.png)
 
-**Source**: [Microbiology Society Article](https://www.microbiologyresearch.org/content/journal/mgen/10.1099/mgen.0.000926)
+*Distribution of the PLP synthesis pathways in bacteria and archaea*
+
+**Paper Link**: [Microbiology Society Article](https://www.microbiologyresearch.org/content/journal/mgen/10.1099/mgen.0.000926)

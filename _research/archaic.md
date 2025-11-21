@@ -38,7 +38,7 @@ To address these challenges, we developed a hierarchical workflow for viral dete
 
 ![Hierarchical workflow for viral detection](/assets/images/archaic/fig1_aDNA.png)
 
-*Figure 1: Hierarchical workflow for viral detection, abundance estimation, and discovery from ancient biological samples.*
+*Hierarchical workflow for viral detection, abundance estimation, and discovery from ancient biological samples.*
 
 ## Key Findings
 
@@ -55,7 +55,7 @@ Assembling reads into contigs significantly improved the detection of viral geno
 
 ![Taxonomic profiling and validation](/assets/images/archaic/fig3_aDNA.png)
 
-*Figure 2: Taxonomic profiling and validation of viral species from ancient samples. The process highlights the reduction in potential viral species after rigorous validation.*
+*Taxonomic profiling and validation of viral species from ancient samples. The process highlights the reduction in potential viral species after rigorous validation.*
 
 ## Conclusion
 
