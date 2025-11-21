@@ -9,13 +9,13 @@ permalink: /research/tff/
 collection: research
 ---
 
-![Type IV filament super-family](images/tff/fig_all_system.png)
+![Type IV filament super-family](/assets/images/tff/fig_all_system.png)
 
 *List of all secretion systems in the type IV filament super-family.*
 
 We create [MacSyfinder](https://github.com/gem-pasteur/macsyfinder) models for genome annotation to identify these secretion systems in publicly accessible genomes. We then analyze their distribution, evolution, and diversification.
 
-![Diversification TFF-SF](images/tff/figure_systems_tree.png)
+![Diversification TFF-SF](/assets/images/tff/figure_systems_tree.png)
 
 *Distribution of the type IV filament super-family across the tree of life. Figure from [Denise et al. Plos Biology, 2019](https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.3000390).*
 
@@ -25,6 +25,6 @@ We have created specialized genome annotation tools called [TXSScan](https://git
 
 In 2020, we published a [review article](https://www.sciencedirect.com/science/article/pii/S0966842X2030007X?via%3Dihub) that explores the different patterns observed in the evolution of bacterial secretion systems by our team and other researchers.
 
-![Evolution of Protein Secretion Systems](images/tff/fig_evolution_secretine.png)
+![Evolution of Protein Secretion Systems](/assets/images/tff/fig_evolution_secretine.png)
 
 *The Evolution of Protein Secretion Systems Delivering Effectors Directly into other Cells. Figure from [Denise et al. 2020](https://www.sciencedirect.com/science/article/pii/S0966842X2030007X?via%3Dihub).*
