@@ -18,12 +18,12 @@ tff:
 
 taxmyphage:
   title: "TaxMyPhage"
-  description: "Tool for phage taxonomy."
+  description: "Workflow to assign Taxonomy to a bacteriophage genome isolate."
   icon: "fa-bug"
   color: "#9b59b6"
 
 macsyfinder:
-  title: "MacSyFinder"
-  description: "Detection of macromolecular systems in genomes."
-  icon: "fa-search"
-  color: "#f1c40f"
+  title: "MacSyFinder & TXSScan"
+  description: "Modeling and detection of macromolecular systems (TXSS models)."
+  icon: "fa-project-diagram"
+  color: "#e67e22"
