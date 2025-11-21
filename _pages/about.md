@@ -13,13 +13,16 @@ I am a MSCA Postdoc researcher in Cork, Ireland. I work at [APC Microbiome](http
 
 I am a computational microbiologist. I am interested in the study of ancient microbiome in dental calculus and paleofeces, but more precisly the viral part of these microbiomes. I study these by analysing sequence data (proteins, genomes) at different scales. I try to be able to detect viruses (eukaryote viruses and bacteriophages) in ancient samples to be able to compare with modern ones and so understood how change in the human population could have impact these communities.
 
-[Read more about my research](/research/){: .btn .btn--primary}
+[Read more about my research](/research/){: .btn .btn--modern-primary}
 
 ## 🔥 Recent Publications
 
-{% for post in site.publications reversed limit:3 %}
-* [{{ post.title }}]({{ post.url }}) ({{ post.date | date: "%Y" }})
+<div class="publications">
+{% assign recent_pubs = site.publications | sort: 'date' | reverse %}
+{% for post in recent_pubs limit:3 %}
+  {% include archive-single-cv.html %}
 {% endfor %}
+</div>
 
-[See all publications](/publications/){: .btn .btn--info}
+[See all publications](/publications/){: .btn .btn--modern-info}
 

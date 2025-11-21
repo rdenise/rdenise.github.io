@@ -151,3 +151,31 @@
     font-size: $type-size-7;
   }
 }
+
+/* Modern button mixin */
+@mixin btn-modern($start-color, $end-color) {
+  background: linear-gradient(135deg, $start-color, $end-color);
+  color: #fff !important;
+  border: none;
+  border-radius: 30px;
+  padding: 0.7em 1.5em;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  transition: all 0.3s ease;
+  font-weight: bold;
+
+  &:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.3);
+    color: #fff !important;
+    background: linear-gradient(135deg, lighten($start-color, 5%), lighten($end-color, 5%));
+  }
+}
+
+/* Modern button variants */
+.btn--modern-primary {
+  @include btn-modern($primary-color, lighten($primary-color, 15%));
+}
+
+.btn--modern-info {
+  @include btn-modern($info-color, lighten($info-color, 15%));
+}
