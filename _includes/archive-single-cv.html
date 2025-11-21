@@ -27,9 +27,9 @@
     <p class="archive__item-excerpt" itemprop="description">
     <!-- Deliver citation -->
     {% if post.paperurl %}
-      {% capture title_link %}<a href="{{ post.url }}">{% endcapture %}
-      {% capture end_title_link %}</a>{% endcapture %}
-      {{ post.citation | replace: "<b>", title_link | replace: "</b>", end_title_link }}
+      {% capture title_link %}<a href="{{ post.url }}"><b>{% endcapture %}
+      {% capture end_title_link %}</b></a>{% endcapture %}
+      <span style="font-style: italic;">{{ post.citation | replace: "<b>", title_link | replace: "</b>", end_title_link }}</span>
     {% else %}
       {{ post.citation }}
     {% endif %}
