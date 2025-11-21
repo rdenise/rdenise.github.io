@@ -1,0 +1,47 @@
+{% assign years_input = include.years %}
+{% if years_input.first %}
+  {% assign years = years_input | sort %}
+{% else %}
+  {% assign years = years_input | split: ',' | sort %}
+{% endif %}
+
+{% assign ranges = "" | split: ',' %}
+{% assign range_start = nil %}
+{% assign range_end = nil %}
+{% assign prev_year = nil %}
+
+{% for year in years %}
+  {% assign current_year = year | plus: 0 %}
+  
+  {% if range_start == nil %}
+    {% assign range_start = current_year %}
+    {% assign range_end = current_year %}
+  {% else %}
+    {% assign diff = current_year | minus: prev_year %}
+    {% if diff == 1 %}
+      {% assign range_end = current_year %}
+    {% else %}
+      {% if range_start == range_end %}
+        {% assign ranges = ranges | push: range_start %}
+      {% else %}
+        {% capture range_str %}{{ range_start }}-{{ range_end }}{% endcapture %}
+        {% assign ranges = ranges | push: range_str %}
+      {% endif %}
+      {% assign range_start = current_year %}
+      {% assign range_end = current_year %}
+    {% endif %}
+  {% endif %}
+  
+  {% assign prev_year = current_year %}
+{% endfor %}
+
+{% if range_start != nil %}
+  {% if range_start == range_end %}
+    {% assign ranges = ranges | push: range_start %}
+  {% else %}
+    {% capture range_str %}{{ range_start }}-{{ range_end }}{% endcapture %}
+    {% assign ranges = ranges | push: range_str %}
+  {% endif %}
+{% endif %}
+
+{{ ranges | join: ', ' }}
