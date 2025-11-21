@@ -10,4 +10,5 @@ open_access: true
 ---
 Pyridoxal 5'-phosphate (PLP), a cofactor derived from B6 vitamers, is crucial for the growth of all known organisms. While its synthesis and salvage pathways are understood in some model species, key components like vitamin B6 transporters remain unidentified in many organisms. A comparative genomic study predicted PLP synthesis and salvage pathways across 5840 bacterial and archaeal species with complete genomes. This research surveyed the distribution of the two known de novo biosynthesis pathways and instances of non-orthologous gene displacement. The analysis revealed that several de novo PLP pathway genes are yet to be identified in many organisms, contributing to what the researchers refer to as "pathway holes."
 
-[Access paper here](https://www.ncbi.nlm.nih.gov/pubmed/36729913){:target="_blank"}
+
+[![Open Access](/assets/images/open-access.png){: style="width: 20px; height: 20px; vertical-align: middle;"} Access paper here](https://www.ncbi.nlm.nih.gov/pubmed/36729913){:target="_blank"}

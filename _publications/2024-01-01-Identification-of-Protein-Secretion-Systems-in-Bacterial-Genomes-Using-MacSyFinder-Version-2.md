@@ -11,4 +11,5 @@ githuburl: https://github.com/gem-pasteur/macsyfinder
 ---
 The abstract for "Identification of Protein Secretion Systems in Bacterial Genomes Using MacSyFinder Version 2" describes a computational tool designed to identify and characterize protein secretion systems within bacterial genomes. MacSyFinder is a flexible tool that leverages knowledge from experimental studies to find homologous systems in genomic data. It employs predefined models, such as "TXSScan," to identify major secretion systems in diderm bacteria, as well as related cellular appendages like pili and flagella. The process involves identifying and clustering co-localized components of secretion systems using sequence similarity searches with Hidden Markov Model (HMM) protein profiles.
 
-[Access paper here](https://www.ncbi.nlm.nih.gov/pubmed/37930518){:target="_blank"}
+
+[![Closed Access](/assets/images/closed-access.png){: style="width: 20px; height: 20px; vertical-align: middle;"} Access paper here](https://www.ncbi.nlm.nih.gov/pubmed/37930518){:target="_blank"}
