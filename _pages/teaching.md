@@ -4,7 +4,7 @@ title: "Teaching"
 permalink: /teaching/
 author_profile: true
 target_collection: teaching
-themes: [lu1sv001, lu1sv002, lu2sv385, spaam]
+themes: [spaam, lu1sv001, lu1sv002, lu2sv385]
 ---
 
 I have been involved in teaching various courses at Sorbonne University and international summer schools, focusing on biology, molecular organization, and bioinformatics.
