@@ -31,6 +31,12 @@ Work experience
   * Institut Pasteur - Sorbonne University
   * Topic: Understanding event of evolution of the Type IV Filament super family
   * Supervision: Eduardo Rocha & Sophie Abby
+  
+Grants & Awards
+======
+* **2021**: Marie Skłodowska-Curie Actions (MSCA) Postdoctoral Fellowship
+  * Project: ARCHAIC - Diversity of bacteriophages in the ancient human microbiome
+  * Grant Agreement ID: 101111040
 
 Scientific outreach activities
 ======
