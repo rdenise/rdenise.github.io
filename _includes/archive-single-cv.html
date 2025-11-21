@@ -27,7 +27,7 @@
     <p class="archive__item-excerpt" itemprop="description">
     <!-- Deliver citation -->
     {% if post.paperurl %}
-      <a href="{{ post.paperurl }}">
+      <a href="{{ post.url }}">
       {{ post.citation }}
       </a>
     {% else %}
@@ -38,9 +38,9 @@
     <!-- Add links to additional information -->
     {% if post.paperurl %}
       {% if post.open_access %}
-        <a href="{{ post.paperurl }}" rel="permalink"><i class="fa fa-fw fa-unlock" aria-hidden="true"></i></a>
+        <a href="{{ post.paperurl }}" rel="permalink"><img src="/assets/images/open-access.png" alt="Open Access" style="width: 20px; height: 20px; vertical-align: middle;"></a>
       {% else %}
-        <a href="{{ post.paperurl }}" rel="permalink"><i class="fa fa-fw fa-lock" aria-hidden="true"></i></a>
+        <a href="{{ post.paperurl }}" rel="permalink"><img src="/assets/images/closed-access.png" alt="Closed Access" style="width: 20px; height: 20px; vertical-align: middle;"></a>
       {% endif %}
     {% endif %}
     {% if post.githuburl %}

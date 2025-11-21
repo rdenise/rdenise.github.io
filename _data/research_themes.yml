@@ -27,3 +27,27 @@ macsyfinder:
   description: "Modeling and detection of macromolecular systems (TXSS models)."
   icon: "fa-project-diagram"
   color: "#e67e22"
+
+lu1sv001:
+  title: "LU1SV001: Molecules to organisms"
+  description: "Diversity and uniqueness of the living world, from molecules to organisms."
+  icon: "fa-tree"
+  color: "#27ae60"
+
+lu1sv002:
+  title: "LU1SV002: Molecular organisation"
+  description: "Structure and function of biological macromolecules and cellular compartments."
+  icon: "fa-atom"
+  color: "#f39c12"
+
+lu2sv385:
+  title: "LU2SV385: Programmation for biologists"
+  description: "Introduction to Python programming and algorithmic concepts for biologists."
+  icon: "fa-laptop-code"
+  color: "#34495e"
+
+spaam:
+  title: "SPAAM Summer School"
+  description: "Ancient Metagenomics Summer School: Bioinformatic workflows for ancient DNA."
+  icon: "fa-chalkboard-teacher"
+  color: "#8e44ad"
