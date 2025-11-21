@@ -62,3 +62,5 @@ Assembling reads into contigs significantly improved the detection of viral geno
 Our findings demonstrate that a multi-faceted approach, combining taxonomic profiling, genome mapping, and *de novo* assembly, is required to accurately reconstruct ancient viral communities. This framework not only enhances our ability to detect known phages but also opens the door to discovering novel viral diversity in the archaeological record.
 
 **Funding**: This project is supported by the European Union’s Horizon 2021-2027 research and innovation programme under the Marie Skłodowska Curie grant agreement N° [101111040](https://cordis.europa.eu/project/id/101111040).
+
+![Funding](/assets/images/archaic/funding.png)

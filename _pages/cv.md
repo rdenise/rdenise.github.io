@@ -17,7 +17,7 @@ Education
 
 Work experience
 ======
-* 2021- Current time: Postdoctoral Researcher & MSCA Fellow
+* 2021-2025: Postdoctoral Researcher & MSCA Fellow
   * University College Cork
   * Topic: Diversity of bacteriophages in the ancien human microbiomes
   * Supervision: Andrey Shkoporov, Colin Hill & Christina Warinner
@@ -36,7 +36,7 @@ Grants & Awards
 ======
 * **2021**: Marie Skłodowska-Curie Actions (MSCA) Postdoctoral Fellowship
   * Project: ARCHAIC - Diversity of bacteriophages in the ancient human microbiome
-  * Grant Agreement ID: 101111040
+  * Grant Agreement ID: [101111040](https://cordis.europa.eu/project/id/101111040)
 
 Scientific outreach activities
 ======
