@@ -11,6 +11,6 @@ open_access: true
 ---
 Antibiotic use disrupts the gut microbiota, posing risks of long-term health issues and resistance. To study its impact on gut phages, we followed 22 healthy individuals 2 weeks before and up to 6 months after a 3-day course of 3rd-generation cephalosporins. Our results show that gut phages rarely encode antibiotic resistance genes and are mostly temperate, including many phage plasmids. Furthermore, phage populations remain individual-specific even after microbiome perturbation. Yet, we report a 20% decline in phage diversity the day after treatment, alongside blooms of a few, mostly virulent, phages. We suggest that some of these phages contribute to the recovery of bacterial diversity via “kill-the-winner” dynamics. This is supported by (temporarily) dominant phages targeting Parabacteroides distasonis, a bacterium that thrives post-treatment only in the absence of these phages. Our findings suggest gut phages are crucial to the microbiome response to antibiotics, aiding the restoration of balance and diversity.
 
-[<i class="ai ai-open-access ai-2x"></i> Access paper here]({{ page.paperurl }}){:target="_blank"}
-{% if page.halurl %} [<i class="ai ai-hal ai-2x"></i> HAL version]({{ page.halurl }}){:target="_blank"} {% endif %}
-{% if page.githuburl %} [<i class="fab fa-github ai-2x"></i> GitHub repository]({{ page.githuburl }}){:target="_blank"} {% endif %}
+<i class="ai ai-open-access ai-2x"></i> [Access paper here]({{ page.paperurl }}){:target="_blank"} <br>
+{% if page.halurl %} <i class="ai ai-hal ai-2x"></i> [HAL version]({{ page.halurl }}){:target="_blank"} <br> {% endif %}
+{% if page.githuburl %} <i class="fab fa-github ai-2x"></i> [GitHub repository]({{ page.githuburl }}){:target="_blank"} {% endif %}
