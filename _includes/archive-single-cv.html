@@ -16,7 +16,7 @@
   {% assign collection = post.collection %}
 {% endif %}
 
-<div class="{{ include.type | default: "list" }}__item" style="margin-left: 40px;">
+<li class="{{ include.type | default: "list" }}__item" style="margin-left: 40px;">
   <div class="pub-date">
     {{ post.date | default: "1900-01-01" | date: "%Y" }}
   </div>
@@ -58,4 +58,4 @@
     </p>
  </article>
  </div>
-</div>
+</li>

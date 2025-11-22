@@ -12,7 +12,7 @@
   {% assign title = post.title %}
 {% endif %}
 
-<div class="{{ include.type | default: "list" }}__item">
+<li class="{{ include.type | default: "list" }}__item">
   <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
     <div class="pub-date teaching-level">{{ post.type }}</div>
     <div class="pub-content">
@@ -35,4 +35,4 @@
       </div>
     </div>
   </article>
-</div>
+</li>

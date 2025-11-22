@@ -12,7 +12,7 @@ toc: true
 
 **MacSyFinder** is a program designed to model and detect macromolecular systems, genetic pathways, and other complex structures in protein datasets.
 
-![MacSyFinder logo](/assets/images/software/macsyfinder.png)
+![MacSyFinder logo](/assets/images/software/macsyfinder_logo.png)
 
 ## What is MacSyFinder?
 

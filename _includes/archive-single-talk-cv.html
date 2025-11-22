@@ -26,7 +26,7 @@
 
 {% include base_path %}
 
-<div class="{{ include.type | default: "list" }}__item" style="margin-left: 40px;">
+<li class="{{ include.type | default: "list" }}__item" style="margin-left: 40px;">
   <div class="pub-date">
     {{ year }}
   </div>
@@ -83,5 +83,5 @@
     </div>
  </article>
  </div>
-</div>
+</li>
 

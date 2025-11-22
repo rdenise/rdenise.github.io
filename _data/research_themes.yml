@@ -26,7 +26,7 @@ macsyfinder:
   title: "MacSyFinder & TXSScan"
   description: "Modeling and detection of macromolecular systems (TXSS models)."
   image: "/assets/images/software/macsyfinder_logo.png"
-  color: "#e67e22"
+  color: "#245796"
 
 lu1sv001:
   title: "LU1SV001: Molecules to organisms"
