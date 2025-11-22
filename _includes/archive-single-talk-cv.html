@@ -36,9 +36,13 @@
     <!-- Create talk description with two-column layout -->
     <div class="talk-item">
       <div class="talk-main">
-        <!-- Title linked to detail page -->
+        <!-- Title linked to conference website if available, otherwise no link -->
         <p class="archive__item-excerpt" itemprop="description" style="margin-bottom: 0.25em;">
-          <a href="{{ base_path }}{{ post.url }}" rel="permalink"><b>{{ title }}</b></a>
+          {% if post.conferenceurl %}
+            <a href="{{ post.conferenceurl }}" target="_blank" rel="noopener noreferrer"><b>{{ title }}</b></a>
+          {% else %}
+            <b>{{ title }}</b>
+          {% endif %}
         </p>
         
         <!-- Venue and conference link -->
