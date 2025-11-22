@@ -49,10 +49,15 @@
   position: absolute;
   left: 25px; /* Center of the 50px bubble */
   top: 50px;  /* Start at the bottom of the bubble */
-  bottom: -20px;  /* Extend to cover the gap to the next item */
+  bottom: -50px;  /* Extend significantly to cover any gap */
   width: 1px;
   border-left: 1px solid #404040;
   z-index: 0;
+}
+
+/* Hide the line for teaching items */
+.teaching-item::before {
+  display: none !important;
 }
 
 .pub-date {
