@@ -63,4 +63,4 @@ Our findings demonstrate that a multi-faceted approach, combining taxonomic prof
 
 **Funding**: This project is supported by the European Union’s Horizon 2021-2027 research and innovation programme under the Marie Skłodowska Curie grant agreement N° [101111040](https://cordis.europa.eu/project/id/101111040).
 
-![Funding](/assets/images/archaic/funding.png)
+<img src="/assets/images/archaic/funding.png" alt="Funding" style="width: 33%;">
