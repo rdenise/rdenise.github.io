@@ -12,6 +12,4 @@ open_access: false
 The article "The Evolution of Protein Secretion Systems by Co-option and Tinkering of Cellular Machineries" explores how the complex protein secretion systems in bacteria have developed. Protein secretion is crucial for various interactions, both biotic and abiotic. The evolution of these bacterial secretion systems, often described as nanomachines, primarily occurred through the "co-option" of existing cellular machinery originally used for functions like motility, conjugation, injection, or adhesion. Some secretion systems have emerged repeatedly throughout evolution, while others are unique. Their development typically involved successive cycles of gene accretion, deletion, and horizontal gene transfer.
 
 
-<i class="ai ai-open-access-square ai-2x"></i> [Access paper here]({{ page.paperurl }}){:target="_blank"} <br>
-{% if page.halurl %} <i class="ai ai-hal-square ai-2x"></i> [HAL version]({{ page.halurl }}){:target="_blank"} <br> {% endif %}
-{% if page.githuburl %} <i class="fab fa-github ai-2x"></i> [GitHub repository]({{ page.githuburl }}){:target="_blank"} {% endif %}
+

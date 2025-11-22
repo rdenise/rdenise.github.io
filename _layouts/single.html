@@ -53,6 +53,18 @@ layout: default
           <p style="font-size: smaller">Recommended citation: {{ page.citation }} </p>
         {% endif %}
 
+        <div class="publication-links">
+          {% if page.paperurl %}
+            <i class="ai ai-open-access-square ai-2x"></i> <a href="{{ page.paperurl }}" target="_blank">Access paper here</a><br>
+          {% endif %}
+          {% if page.halurl %}
+            <i class="ai ai-hal ai-2x"></i> <a href="{{ page.halurl }}" target="_blank">HAL version</a><br>
+          {% endif %}
+          {% if page.githuburl %}
+            <i class="fab fa-github ai-2x"></i> <a href="{{ page.githuburl }}" target="_blank">GitHub repository</a>
+          {% endif %}
+        </div>
+
         {% if page.halurl %}
           <p style="font-size: smaller">HAL: <a href="{{ page.halurl }}"><u>{{ page.halurl }}</u></a></p>
         {% endif %}
