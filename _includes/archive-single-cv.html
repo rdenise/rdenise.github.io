@@ -38,9 +38,9 @@
     <!-- Add links to additional information -->
     {% if post.paperurl %}
       {% if post.open_access %}
-        <a href="{{ post.paperurl }}" rel="permalink"><img src="/assets/images/open-access.png" alt="Open Access" style="height: 20px; width: auto; vertical-align: middle;"></a>
+        <a href="{{ post.paperurl }}" rel="permalink"><i class="ai ai-open-access" aria-hidden="true"></i></a>
       {% else %}
-        <a href="{{ post.paperurl }}" rel="permalink"><img src="/assets/images/closed-access.png" alt="Closed Access" style="height: 20px; width: auto; vertical-align: middle;"></a>
+        <a href="{{ post.paperurl }}" rel="permalink"><i class="ai ai-closed-access" aria-hidden="true"></i></a>
       {% endif %}
     {% endif %}
     {% if post.githuburl %}
