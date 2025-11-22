@@ -18,10 +18,12 @@ I am a computational microbiologist. I am interested in the study of ancient mic
 ## 🔥 Recent Publications
 
 <div class="publications">
-{% assign recent_pubs = site.publications | sort: 'date' | reverse %}
-{% for post in recent_pubs limit:3 %}
-  {% include archive-single-cv.html %}
-{% endfor %}
+  <ul>
+    {% assign recent_pubs = site.publications | sort: 'date' | reverse %}
+    {% for post in recent_pubs limit:3 %}
+      {% include archive-single-cv.html %}
+    {% endfor %}
+  </ul>
 </div>
 
 [See all publications](/publications/){: .btn .btn--modern-info}
