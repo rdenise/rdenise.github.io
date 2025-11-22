@@ -14,7 +14,7 @@ author_profile: true
 <div class="publications">
   <ul>
     {% for post in site.publications reversed %}
-      {% include archive-single-cv.html %}
+      {% include archive-single-cv.html last_item=forloop.last %}
     {% endfor %}
   </ul>
 </div>

@@ -12,7 +12,7 @@
   {% assign title = post.title %}
 {% endif %}
 
-<li class="{{ include.type | default: "list" }}__item">
+<li class="{{ include.type | default: "list" }}__item {% if include.last_item %}is-last-item{% endif %}">
   <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
     <div class="pub-date teaching-level">{{ post.type }}</div>
     <div class="pub-content">

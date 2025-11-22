@@ -21,7 +21,7 @@ I am a computational microbiologist. I am interested in the study of ancient mic
   <ul>
     {% assign recent_pubs = site.publications | sort: 'date' | reverse %}
     {% for post in recent_pubs limit:3 %}
-      {% include archive-single-cv.html %}
+      {% include archive-single-cv.html last_item=forloop.last %}
     {% endfor %}
   </ul>
 </div>

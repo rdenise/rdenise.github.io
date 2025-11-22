@@ -81,7 +81,8 @@
 }
 
 /* Remove the line after the last item in any section */
-.list__item:last-of-type .pub-date::after {
+.list__item:last-of-type .pub-date::after,
+.is-last-item .pub-date::after {
   display: none;
 }
 

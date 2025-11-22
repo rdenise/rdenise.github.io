@@ -14,7 +14,7 @@ author_profile: true
 <div class="publications">
   <ul>
     {% for post in site.talks reversed %}
-      {% include archive-single-talk-cv.html %}
+      {% include archive-single-talk-cv.html last_item=forloop.last %}
     {% endfor %}
   </ul>
 </div>
