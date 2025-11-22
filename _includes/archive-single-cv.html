@@ -43,6 +43,9 @@
         <a href="{{ post.paperurl }}" rel="permalink"><i class="ai ai-closed-access" aria-hidden="true"></i></a>
       {% endif %}
     {% endif %}
+    {% if post.halurl %}
+      <a href="{{ post.halurl }}" rel="permalink"><i class="ai ai-hal" aria-hidden="true"></i></a>
+    {% endif %}
     {% if post.githuburl %}
       <a href="{{ post.githuburl }}" rel="permalink"><i class="fab fa-github" aria-hidden="true"></i></a>
     {% endif %}
