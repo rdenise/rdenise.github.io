@@ -49,7 +49,7 @@
   position: absolute;
   left: 25px; /* Center of the 50px bubble */
   top: 50px;  /* Start at the bottom of the bubble */
-  bottom: 0;  /* End at the bottom of the list item (start of next item) */
+  bottom: -20px;  /* Extend to cover the gap to the next item */
   width: 1px;
   border-left: 1px solid #404040;
   z-index: 0;
