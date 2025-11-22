@@ -13,7 +13,8 @@ author_profile: true
 
 <div class="publications">
   <ul>
-    {% for post in site.publications reversed %}
+    {% assign reversed_pubs = site.publications | reverse %}
+    {% for post in reversed_pubs %}
       {% include archive-single-cv.html last_item=forloop.last %}
     {% endfor %}
   </ul>
