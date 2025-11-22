@@ -12,6 +12,8 @@ toc: true
 
 **MacSyFinder** is a program designed to model and detect macromolecular systems, genetic pathways, and other complex structures in protein datasets.
 
+![MacSyFinder logo](/assets/images/software/macsyfinder.png)
+
 ## What is MacSyFinder?
 
 In prokaryotes, many biological systems (like secretion systems, flagella, or CRISPR-Cas systems) have evolutionarily conserved properties:
