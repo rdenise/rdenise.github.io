@@ -39,6 +39,22 @@
     text-decoration: none;
 }
 
+.list__item {
+  position: relative;
+}
+
+/* Draw the vertical line using the list item's height */
+.list__item::before {
+  content: '';
+  position: absolute;
+  left: 25px; /* Center of the 50px bubble */
+  top: 50px;  /* Start at the bottom of the bubble */
+  bottom: 0;  /* End at the bottom of the list item (start of next item) */
+  width: 1px;
+  border-left: 1px solid #404040;
+  z-index: 0;
+}
+
 .pub-date {
   color: #FFF;
   font-size: 0.9rem;
@@ -56,40 +72,20 @@
   text-align: center;
   margin-top: 0;
   margin-left: 0;
+  z-index: 1; /* Ensure bubble is above the line */
 }
 
-.pub-date::before {
-  content: '';
-  position: absolute;
-  left: 50%;
-  height: 0px;
-  width: 1px;
-  top: 0px;
-  border-left: 1px solid #404040;
-  z-index: 0;
-}
-
+/* Remove old pseudo-elements */
+.pub-date::before,
 .pub-date::after {
-  content: '';
-  position: absolute;
-  left: 50%;
-  height: 200px;
-  width: 1px;
-  bottom: -200px;
-  border-left: 1px solid #404040;
-  z-index: 0;
-}
-
-/* Remove the line after the last item in any section */
-.list__item:last-child .pub-date::after,
-.list__item:last-of-type .pub-date::after,
-.is-last-item .pub-date::after {
-  display: none !important;
-}
-
-/* Remove the line before the first item in any section */
-.list__item:first-child .pub-date::before {
   display: none;
+}
+
+/* Remove the line for the last item */
+.list__item:last-child::before,
+.list__item:last-of-type::before,
+.is-last-item::before {
+  display: none !important;
 }
 
 /* Teaching level badge - circular like year badges */
