@@ -4,7 +4,7 @@ collection: publications
 permalink: /publication/2025-08-26-Antibiotic-perturbation-of-the-human-gut-phageome
 date: 2025-08-26
 venue: 'Cell Reports'
-paperurl: 'https://doi.org/10.1016/j.celrep.2025.116020'
+paperurl: 'https://pubmed.ncbi.nlm.nih.gov/40694475/'
 halurl: 'https://pasteur.hal.science/pasteur-05262007v1'
 citation: 'E. Pfeifer, C. d’Humières, Q. Lamy-Besnier, F.P. Oñate, R. Denise, S. Dion, B. Condamine, M. Touchon, L. Ma, C. Burdet, F. Mentré, E. Denamur, E.P.C. Rocha, <b>Antibiotic perturbation of the human gut phageome preserves its individuality and promotes blooms of virulent phages.</b> <i>Cell Reports</i>, 44(8):116020, 2025.'
 open_access: true
