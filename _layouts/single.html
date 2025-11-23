@@ -65,10 +65,6 @@ layout: default
           {% endif %}
         </div>
 
-        {% if page.halurl %}
-          <p style="font-size: smaller">HAL: <a href="{{ page.halurl }}"><u>{{ page.halurl }}</u></a></p>
-        {% endif %}
-
         {% if page.link %}<div><a href="{{ page.link }}" class="btn">{{ site.data.ui-text[site.locale].ext_link_label | default: "Direct Link" }}</a></div>{% endif %}
       </section>
 
