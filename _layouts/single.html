@@ -54,10 +54,10 @@ layout: default
         {% endif %}
 
         <div class="publication-links">
-          {% if page.open_access %}
+          {% if page.open_access == true %}
             <i class="ai ai-open-access-square ai-2x"></i> <a href="{{ page.paperurl }}" target="_blank">Access paper here</a><br>
           {% endif %}
-          {% if not page.open_access %}
+          {% if page.open_access == false %}
             <i class="ai ai-closed-access-square ai-2x"></i> <a href="{{ page.paperurl }}" target="_blank">Access paper here</a><br>
           {% endif %}
           {% if page.halurl %}
