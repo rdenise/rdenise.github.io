@@ -10,7 +10,7 @@ header:
   teaser: /assets/images/teaching/SPAAM-summerschool_logo.png
 ---
 
-![SPAAM Summer School](/assets/images/teaching/SPAAM_logo2.png)
+<img src="/assets/images/teaching/SPAAM_logo2.png" alt="SPAAM Summer School" width="400">
 
 Ancient metagenomics applies cutting-edge metagenomic methods to the degraded DNA content of archaeological and paleontological specimens. The rapidly growing field is currently uncovering a wealth of novel information for both human and natural history, from identifying the causes of devastating pandemics such as the Black Death, to revealing how past ecosystems changed in response to long-term climatic and anthropogenic change, to reconstructing the microbiomes of extinct human relatives. However, as the field grows, the techniques, methods, and workflows used to analyse such data are rapidly changing and improving.
 
