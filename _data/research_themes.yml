@@ -51,3 +51,4 @@ spaam:
   description: "Ancient Metagenomics Summer School: Bioinformatic workflows for ancient DNA."
   image: "/assets/images/teaching/SPAAM-summerschool_logo.png"
   color: "#8e44ad"
+  # Updated to use image instead of icon

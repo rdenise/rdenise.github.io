@@ -11,6 +11,13 @@ author_profile: true
 
 {% include base_path %}
 
+<style>
+.publications h2 {
+  margin-top: 1em;
+  margin-bottom: 0.5em;
+}
+</style>
+
 <div class="publications">
 
   <h2>Research Articles</h2>
