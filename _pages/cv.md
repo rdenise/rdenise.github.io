@@ -31,21 +31,29 @@ Work experience
   * Institut Pasteur - Sorbonne University
   * Topic: Understanding event of evolution of the Type IV Filament super family
   * Supervision: Eduardo Rocha & Sophie Abby
+
+Supervising Experience
+======
+* 2023-2024: 
+  * Undergraduate student from Applied University of Science Leiden
+  * Project: Rapid co-evolution of bacteria and bacteriophages in the human gut microbiome
+  * Co-supervision with Andrey Shkoporov
+
+* 2022: 
+  * MSc bioinformatic student from University College Cork
+  * Project: Comparison of different viruses’ detection software
+  * Co-supervision with Andrey Shkoporov
+
+* 2022: 
+  * Undergraduate student from Applied University of Science Leiden
+  * Project: Characterization of patterns of diversity and conservation among structural proteins of crAss-like phages
+  * Co-supervision with Andrey Shkoporov
   
 Grants & Awards
 ======
-* **2021**: Marie Skłodowska-Curie Actions (MSCA) Postdoctoral Fellowship
+* 2021: Marie Skłodowska-Curie Actions (MSCA) Postdoctoral Fellowship
   * Project: ARCHAIC - Diversity of bacteriophages in the ancient human microbiome
   * Grant Agreement ID: [101111040](https://cordis.europa.eu/project/id/101111040)
-
-Scientific outreach activities
-======
-* Organization of conferences:
-  * 2019: [Alphy meeting](https://lbbe-dmz.univ-lyon1.fr/alphy-legacy/lbbe-dmz.univ-lyon1.fr/spip_alphy/spip349d.html?article70) (MNHN - Paris, France)
-  * 2019: [Boris Ephrussi Day](https://sites.google.com/site/journeeborisephrussi/) (Ecole Normale Supérieure - Paris, France)
-  * 2018: [YRLS](http://yr2i.org/wp-content/uploads/2018/02/poster_YRLS_2018_VFinale2-copie.jpg) (Ecole Normale Supérieure - Paris, France)
-  * 2018: [Boris Ephrussi Day](https://sites.google.com/site/journeeborisephrussi/) (Sorbonne University - Campus Jussieu - Paris, France)
-  * 2017: [Boris Ephrussi Day](https://sites.google.com/site/journeeborisephrussi/) (Institut Pasteur - Paris, France)
 
 Publications
 ======

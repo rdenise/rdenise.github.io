@@ -25,6 +25,6 @@ We have created specialized genome annotation tools called [TXSScan](https://git
 
 In 2020, we published a [review article](https://www.sciencedirect.com/science/article/pii/S0966842X2030007X?via%3Dihub) that explores the different patterns observed in the evolution of bacterial secretion systems by our team and other researchers.
 
-![Evolution of Protein Secretion Systems](/assets/images/tff/fig_evolution_secretine.png)
+![Evolution of protein secretion systems delivering effectors](/assets/images/tff/fig_T3SS_T4SS_T6SS.png)
 
 *The Evolution of Protein Secretion Systems Delivering Effectors Directly into other Cells. Figure from [Denise et al. 2020](https://www.sciencedirect.com/science/article/pii/S0966842X2030007X?via%3Dihub).*
