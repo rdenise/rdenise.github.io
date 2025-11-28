@@ -1,6 +1,7 @@
 ---
 title: "The major subunit of widespread competence pili exhibits a novel and conserved type IV pilin fold"
 collection: publications
+publication_type: research
 permalink: /publication/2020-01-01-The-major-subunit-of-widespread-competence-pili-exhibits-a-novel-and-conserved-type-IV-pilin-fold
 date: 2020-01-01
 venue: 'J Biol Chem'

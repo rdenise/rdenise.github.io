@@ -1,6 +1,7 @@
 ---
 title: "Isolation and characterization of a novel lytic Parabacteroides distasonis bacteriophage phiPDS1 from the human gut"
 collection: publications
+publication_type: research
 permalink: /publication/2024-01-01-Isolation-and-characterization-of-a-novel-lytic-Parabacteroides-distasonis-bacteriophage-phiPDS1-from-the-human-gut
 date: 2024-01-01
 venue: 'Gut Microbes'

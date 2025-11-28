@@ -59,7 +59,7 @@ Publications
 ======
   <div class="publications">
   <ul>
-    {% assign reversed_pubs = site.publications | reverse %}
+    {% assign reversed_pubs = site.publications | where_exp: "item", "item.publication_type != 'thesis'" | reverse %}
     {% for post in reversed_pubs %}
       {% include archive-single-cv.html last_item=forloop.last %}
     {% endfor %}

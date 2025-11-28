@@ -1,6 +1,7 @@
 ---
 title: "taxmyPHAGE: automated taxonomy of dsDNA phage genomes at the genus and species level"
 collection: publications
+publication_type: research
 permalink: /publication/2025-01-01-taxmyPHAGE
 date: 2025-01-01
 venue: 'Phage (New Rochelle)'

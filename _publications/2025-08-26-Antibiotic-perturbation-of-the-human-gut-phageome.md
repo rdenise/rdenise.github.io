@@ -1,6 +1,7 @@
 ---
 title: "Antibiotic perturbation of the human gut phageome preserves its individuality and promotes blooms of virulent phages"
 collection: publications
+publication_type: research
 permalink: /publication/2025-08-26-Antibiotic-perturbation-of-the-human-gut-phageome
 date: 2025-08-26
 venue: 'Cell Reports'

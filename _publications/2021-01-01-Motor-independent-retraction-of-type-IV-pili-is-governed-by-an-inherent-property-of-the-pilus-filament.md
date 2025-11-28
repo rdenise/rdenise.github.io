@@ -1,6 +1,7 @@
 ---
 title: "Motor-independent retraction of type IV pili is governed by an inherent property of the pilus filament"
 collection: publications
+publication_type: research
 permalink: /publication/2021-01-01-Motor-independent-retraction-of-type-IV-pili-is-governed-by-an-inherent-property-of-the-pilus-filament
 date: 2021-01-01
 venue: 'Proc Natl Acad Sci U S A'

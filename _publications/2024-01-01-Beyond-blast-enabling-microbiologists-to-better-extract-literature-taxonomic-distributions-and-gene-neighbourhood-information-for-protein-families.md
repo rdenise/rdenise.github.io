@@ -1,6 +1,7 @@
 ---
 title: "Beyond blast: enabling microbiologists to better extract literature, taxonomic distributions and gene neighbourhood information for protein families"
 collection: publications
+publication_type: research
 permalink: /publication/2024-01-01-Beyond-blast-enabling-microbiologists-to-better-extract-literature-taxonomic-distributions-and-gene-neighbourhood-information-for-protein-families
 date: 2024-01-01
 venue: 'Microb Genom'

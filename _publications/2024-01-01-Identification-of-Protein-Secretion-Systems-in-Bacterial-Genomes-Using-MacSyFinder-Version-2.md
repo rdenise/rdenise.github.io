@@ -1,6 +1,7 @@
 ---
 title: "Identification of Protein Secretion Systems in Bacterial Genomes Using MacSyFinder Version 2"
 collection: publications
+publication_type: book_chapter
 permalink: /publication/2024-01-01-Identification-of-Protein-Secretion-Systems-in-Bacterial-Genomes-Using-MacSyFinder-Version-2
 date: 2024-01-01
 venue: 'Methods Mol Biol'

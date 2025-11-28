@@ -49,5 +49,5 @@ lu2sv385:
 spaam:
   title: "SPAAM Summer School"
   description: "Ancient Metagenomics Summer School: Bioinformatic workflows for ancient DNA."
-  icon: "fa-chalkboard-teacher"
+  image: "/assets/images/teaching/SPAAM-summerschool_logo.png"
   color: "#8e44ad"
