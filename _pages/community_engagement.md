@@ -62,55 +62,75 @@ author_profile: true
 ## Scientific Community 
 
 <div class="logo-grid">
+  {% for society in site.data.community.scientific_societies %}
   <div class="logo-wrapper">
-    <a href="https://www.spaam-community.org" class="logo-item">
-      <img src="/assets/images/asso/SPAAM-Logo.png" alt="SPAAM Logo">
+    {% if society.url %}
+    <a href="{{ society.url }}" class="logo-item">
+      <img src="{{ society.logo }}" alt="{{ society.name }} Logo">
     </a>
-    <div class="logo-title"><strong>SPAAM</strong><br>Treasurer<br>(2025-now)</div>
+    {% else %}
+    <div class="logo-item">
+      <img src="{{ society.logo }}" alt="{{ society.name }} Logo">
+    </div>
+    {% endif %}
+    <div class="logo-title"><strong>{{ society.name }}</strong><br>{{ society.role }}<br>({{ society.dates }})</div>
   </div>
-  
-  <div class="logo-wrapper">
-    <a href="https://www.linkedin.com/showcase/amyb-anrs-young-basic-research-community-network" class="logo-item">
-      <img src="/assets/images/asso/AMYB_logo.png" alt="AMYB Logo">
-    </a>
-    <div class="logo-title"><strong>AMYB</strong><br>Executive Board Member<br>(2021-now)</div>
-  </div>
-  
-  <div class="logo-wrapper">
-    <a href="https://stapa.ovh" class="logo-item">
-      <img src="/assets/images/asso/STAPA_logo.png" alt="STAPA Logo">
-    </a>
-    <div class="logo-title"><strong>STAPA</strong><br>Active Member<br>(2019)</div>
-  </div>
-  
-  <div class="logo-wrapper">
-    <a href="#" class="logo-item">
-      <img src="/assets/images/asso/DocAndCo_Logo.png" alt="Doc&Co Logo">
-    </a>
-    <div class="logo-title"><strong>Doc&Co</strong><br>President/VP/Treasurer<br>(2017-2019)</div>
-  </div>
+  {% endfor %}
 </div>
 
 ## General Public 
 
 <div class="logo-grid">
+  {% for society in site.data.community.public_societies %}
   <div class="logo-wrapper">
-    <a href="https://www.solidarite-sida.org" class="logo-item">
-      <img src="/assets/images/asso/Solidarite-sida-Logo.png" alt="Solidarité SIDA Logo">
+    {% if society.url %}
+    <a href="{{ society.url }}" class="logo-item">
+      <img src="{{ society.logo }}" alt="{{ society.name }} Logo">
     </a>
-    <div class="logo-title"><strong>Solidarité SIDA</strong><br>Active Member<br>(2025-now)</div>
+    {% else %}
+    <div class="logo-item">
+      <img src="{{ society.logo }}" alt="{{ society.name }} Logo">
+    </div>
+    {% endif %}
+    <div class="logo-title"><strong>{{ society.name }}</strong><br>{{ society.role }}<br>({{ society.dates }})</div>
   </div>
+  {% endfor %}
 </div>
   
-
 ## Organization of conferences
 
-* 2019: [Alphy meeting](https://lbbe-dmz.univ-lyon1.fr/alphy-legacy/lbbe-dmz.univ-lyon1.fr/spip_alphy/spip349d.html?article70) (MNHN - Paris, France)
-* 2019: [Boris Ephrussi Day](https://sites.google.com/site/journeeborisephrussi/) (Ecole Normale Supérieure - Paris, France)
-* 2018: [YRLS](http://yr2i.org/wp-content/uploads/2018/02/poster_YRLS_2018_VFinale2-copie.jpg) (Ecole Normale Supérieure - Paris, France)
-* 2018: [Boris Ephrussi Day](https://sites.google.com/site/journeeborisephrussi/) (Sorbonne University - Campus Jussieu - Paris, France)
-* 2017: [Boris Ephrussi Day](https://sites.google.com/site/journeeborisephrussi/) (Institut Pasteur - Paris, France)
+<div class="logo-grid">
+  {% for conf in site.data.community.conferences %}
+  <div class="logo-wrapper">
+    {% if conf.url %}
+    <a href="{{ conf.url }}" class="logo-item">
+      <img src="{{ conf.logo }}" alt="{{ conf.name }} Logo">
+    </a>
+    {% else %}
+    <div class="logo-item">
+      <img src="{{ conf.logo }}" alt="{{ conf.name }} Logo">
+    </div>
+    {% endif %}
+    <div class="logo-title"><strong>{{ conf.name }}</strong><br>{{ conf.dates }}<br>{{ conf.location }}</div>
+  </div>
+  {% endfor %}
+</div>
 
 ## General Public Events
 
-* 2024: [Pint of Science Ireland](https://www.pintofscienceireland.com/) (Cork, Ireland)
+<div class="logo-grid">
+  {% for event in site.data.community.public_events %}
+  <div class="logo-wrapper">
+    {% if event.url %}
+    <a href="{{ event.url }}" class="logo-item">
+      <img src="{{ event.logo }}" alt="{{ event.name }} Logo">
+    </a>
+    {% else %}
+    <div class="logo-item">
+      <img src="{{ event.logo }}" alt="{{ event.name }} Logo">
+    </div>
+    {% endif %}
+    <div class="logo-title"><strong>{{ event.name }}</strong><br>{{ event.dates }}<br>{{ event.location }}</div>
+  </div>
+  {% endfor %}
+</div>

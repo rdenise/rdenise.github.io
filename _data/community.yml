@@ -1,0 +1,75 @@
+scientific_societies:
+  - name: SPAAM
+    role: Treasurer
+    dates: 2025-now
+    url: https://www.spaam-community.org
+    logo: /assets/images/asso/SPAAM-Logo.png
+  
+  - name: AMYB
+    role: Executive Board Member
+    dates: 2021-now
+    url: https://www.linkedin.com/showcase/amyb-anrs-young-basic-research-community-network
+    logo: /assets/images/asso/AMYB_logo.png
+
+  - name: STAPA
+    role: Active Member
+    dates: 2019
+    url: https://stapa.ovh
+    logo: /assets/images/asso/STAPA_logo.png
+
+  - name: Doc&Co
+    role: President/VP/Treasurer
+    dates: 2017-2019
+    url: 
+    logo: /assets/images/asso/DocAndCo_Logo.png
+
+public_societies:
+  - name: Solidarité SIDA
+    role: Active Member
+    dates: 2025-now
+    url: https://www.solidarite-sida.org
+    logo: /assets/images/asso/Solidarite-sida-Logo.png
+
+conferences:
+  - name: Alphy meeting
+    role: Organization
+    dates: 2019
+    location: MNHN - Paris, France
+    url: https://lbbe-dmz.univ-lyon1.fr/alphy-legacy/lbbe-dmz.univ-lyon1.fr/spip_alphy/spip349d.html?article70
+    logo: /assets/images/conference/alphy_logo.png
+
+  - name: Boris Ephrussi Day
+    role: Organization
+    dates: 2019
+    location: Ecole Normale Supérieure - Paris, France
+    url: https://sites.google.com/site/journeeborisephrussi/
+    logo: /assets/images/conference/Journee_Boris_Ephrussi_logo.png
+
+  - name: YRLS
+    role: Organization
+    dates: 2018
+    location: Ecole Normale Supérieure - Paris, France
+    url: https://www.linkedin.com/in/yrlsfederation/
+    logo: /assets/images/conference/YRLS_logo.png
+
+  - name: Boris Ephrussi Day
+    role: Organization
+    dates: 2018
+    location: Sorbonne University - Campus Jussieu - Paris, France
+    url: https://sites.google.com/site/journeeborisephrussi/
+    logo: /assets/images/conference/Journee_Boris_Ephrussi_logo.png
+
+  - name: Boris Ephrussi Day
+    role: Organization
+    dates: 2017
+    location: Institut Pasteur - Paris, France
+    url: https://sites.google.com/site/journeeborisephrussi/
+    logo: /assets/images/conference/Journee_Boris_Ephrussi_logo.png
+
+public_events:
+  - name: Pint of Science Ireland
+    role: Speaker
+    dates: 2024
+    location: Cork, Ireland
+    url: https://www.pintofscienceireland.com/
+    logo: /assets/images/conference/pint_of_science.png
