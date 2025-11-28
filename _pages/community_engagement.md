@@ -7,24 +7,70 @@ author_profile: true
 
 {% include base_path %}
 
+<style>
+.logo-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
+.logo-item {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 3px solid #f0f0f0;
+  background-color: white;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+.logo-item:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 12px rgba(0,0,0,0.15);
+  border-color: #ddd;
+}
+
+.logo-item img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  padding: 15px; /* Padding to ensure logo doesn't touch the circle edge */
+}
+</style>
+
 ## Scientific Community Associations
 
-* 2025-now: Treasurer
-  * [SPAAM](https://www.spaam-community.org) (Standards, Precautions, and Advances in Ancient Metagenomics) association
-
-* 2021-now: Executive Board Member
-  * [AMYB](https://www.linkedin.com/showcase/amyb-anrs-young-basic-research-community-network) (ANRS MIE Young Basic Research Community Network)
-
-* 2019: Active Member
-  * [STAPA](https://stapa.ovh) (Young Researchers of Institut Pasteur)
-
-* 2017-2019: President (2019), Vice-President (2018) and Treasurer (2017)
-  * Doc&Co - Association of Doctoral Representatives, Sorbonne University
+<div class="logo-grid">
+  <a href="https://www.spaam-community.org" class="logo-item" title="SPAAM - Treasurer (2025-now)">
+    <img src="/assets/images/asso/SPAAM-Logo.png" alt="SPAAM Logo">
+  </a>
+  
+  <a href="https://www.linkedin.com/showcase/amyb-anrs-young-basic-research-community-network" class="logo-item" title="AMYB - Executive Board Member (2021-now)">
+    <img src="/assets/images/asso/AMYB_logo.png" alt="AMYB Logo">
+  </a>
+  
+  <a href="https://stapa.ovh" class="logo-item" title="STAPA - Active Member (2019)">
+    <img src="/assets/images/asso/STAPA_logo.png" alt="STAPA Logo">
+  </a>
+  
+  <a href="#" class="logo-item" title="Doc&Co - President/VP/Treasurer (2017-2019)">
+    <img src="/assets/images/asso/DocAndCo_Logo.png" alt="Doc&Co Logo">
+  </a>
+</div>
 
 ## General Public Association
 
-* 2025-now: Active member
-  * [Solidarité SIDA](https://www.solidarite-sida.org)
+<div class="logo-grid">
+  <a href="https://www.solidarite-sida.org" class="logo-item" title="Solidarité SIDA - Active Member (2025-now)">
+    <img src="/assets/images/asso/Solidarite-sida-Logo.png" alt="Solidarité SIDA Logo">
+  </a>
+</div>
   
 
 ## Organization of conferences
