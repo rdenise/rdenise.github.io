@@ -7,19 +7,25 @@ author_profile: true
 
 {% include base_path %}
 
-Service to the Scientific Community
+Scientific Community Associations
 ======
 * 2025-now: Treasurer
-  * SPAAM (Standards, Precautions, and Advances in Ancient Metagenomics) association
+  * [SPAAM](https://www.spaam-community.org) (Standards, Precautions, and Advances in Ancient Metagenomics) association
 
 * 2021-now: Executive Board Member
-  * ANRS MIE Young Basic Research Community Network (AMYB)
+  * [AMYB](https://www.linkedin.com/showcase/amyb-anrs-young-basic-research-community-network) (ANRS MIE Young Basic Research Community Network)
 
 * 2019: Active Member
-  * STAPA (Young Researchers of Institut Pasteur)
+  * [STAPA](https://stapa.ovh) (Young Researchers of Institut Pasteur)
 
 * 2017-2019: President (2019), Vice-President (2018) and Treasurer (2017)
   * Doc&Co - Association of Doctoral Representatives, Sorbonne University
+
+General Public Association
+======
+* 2025-now: Active member
+  * [Solidarité SIDA](https://www.solidarite-sida.org)
+  
 
 Organization of conferences
 ======
