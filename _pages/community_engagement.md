@@ -11,9 +11,17 @@ author_profile: true
 .logo-grid {
   display: flex;
   flex-wrap: wrap;
-  gap: 30px;
-  justify-content: center;
+  gap: 40px;
+  justify-content: flex-start; /* Align left */
   margin-bottom: 30px;
+}
+
+.logo-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 150px;
+  text-align: center;
 }
 
 .logo-item {
@@ -28,6 +36,7 @@ author_profile: true
   background-color: white;
   transition: all 0.3s ease;
   box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  margin-bottom: 15px;
 }
 
 .logo-item:hover {
@@ -40,36 +49,57 @@ author_profile: true
   width: 100%;
   height: 100%;
   object-fit: contain;
-  padding: 15px; /* Padding to ensure logo doesn't touch the circle edge */
+  padding: 15px;
+}
+
+.logo-title {
+  font-size: 0.9em;
+  line-height: 1.3;
+  color: #333;
 }
 </style>
 
-## Scientific Community Associations
+## Scientific Community 
 
 <div class="logo-grid">
-  <a href="https://www.spaam-community.org" class="logo-item" title="SPAAM - Treasurer (2025-now)">
-    <img src="/assets/images/asso/SPAAM-Logo.png" alt="SPAAM Logo">
-  </a>
+  <div class="logo-wrapper">
+    <a href="https://www.spaam-community.org" class="logo-item">
+      <img src="/assets/images/asso/SPAAM-Logo.png" alt="SPAAM Logo">
+    </a>
+    <div class="logo-title"><strong>SPAAM</strong><br>Treasurer<br>(2025-now)</div>
+  </div>
   
-  <a href="https://www.linkedin.com/showcase/amyb-anrs-young-basic-research-community-network" class="logo-item" title="AMYB - Executive Board Member (2021-now)">
-    <img src="/assets/images/asso/AMYB_logo.png" alt="AMYB Logo">
-  </a>
+  <div class="logo-wrapper">
+    <a href="https://www.linkedin.com/showcase/amyb-anrs-young-basic-research-community-network" class="logo-item">
+      <img src="/assets/images/asso/AMYB_logo.png" alt="AMYB Logo">
+    </a>
+    <div class="logo-title"><strong>AMYB</strong><br>Executive Board Member<br>(2021-now)</div>
+  </div>
   
-  <a href="https://stapa.ovh" class="logo-item" title="STAPA - Active Member (2019)">
-    <img src="/assets/images/asso/STAPA_logo.png" alt="STAPA Logo">
-  </a>
+  <div class="logo-wrapper">
+    <a href="https://stapa.ovh" class="logo-item">
+      <img src="/assets/images/asso/STAPA_logo.png" alt="STAPA Logo">
+    </a>
+    <div class="logo-title"><strong>STAPA</strong><br>Active Member<br>(2019)</div>
+  </div>
   
-  <a href="#" class="logo-item" title="Doc&Co - President/VP/Treasurer (2017-2019)">
-    <img src="/assets/images/asso/DocAndCo_Logo.png" alt="Doc&Co Logo">
-  </a>
+  <div class="logo-wrapper">
+    <a href="#" class="logo-item">
+      <img src="/assets/images/asso/DocAndCo_Logo.png" alt="Doc&Co Logo">
+    </a>
+    <div class="logo-title"><strong>Doc&Co</strong><br>President/VP/Treasurer<br>(2017-2019)</div>
+  </div>
 </div>
 
-## General Public Association
+## General Public 
 
 <div class="logo-grid">
-  <a href="https://www.solidarite-sida.org" class="logo-item" title="Solidarité SIDA - Active Member (2025-now)">
-    <img src="/assets/images/asso/Solidarite-sida-Logo.png" alt="Solidarité SIDA Logo">
-  </a>
+  <div class="logo-wrapper">
+    <a href="https://www.solidarite-sida.org" class="logo-item">
+      <img src="/assets/images/asso/Solidarite-sida-Logo.png" alt="Solidarité SIDA Logo">
+    </a>
+    <div class="logo-title"><strong>Solidarité SIDA</strong><br>Active Member<br>(2025-now)</div>
+  </div>
 </div>
   
 
@@ -81,6 +111,6 @@ author_profile: true
 * 2018: [Boris Ephrussi Day](https://sites.google.com/site/journeeborisephrussi/) (Sorbonne University - Campus Jussieu - Paris, France)
 * 2017: [Boris Ephrussi Day](https://sites.google.com/site/journeeborisephrussi/) (Institut Pasteur - Paris, France)
 
-## Community Communications
+## General Public Communications
 
 * 2024: Pint of Science Ireland 2024 (Cork, Ireland)
