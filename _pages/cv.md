@@ -11,9 +11,9 @@ redirect_from:
 
 Education
 ======
-* B.S. in Sciences and Technologies, University Pierre et Marie Curie – Sorbonne University, 2014
-* M.S. in Molecular and Cellular Biology, University Pierre et Marie Curie – Sorbonne University, 2016
 * Ph.D in Life Science Complexity, University Pierre et Marie Curie – Sorbonne University, 2019
+* M.S. in Molecular and Cellular Biology, University Pierre et Marie Curie – Sorbonne University, 2016
+* B.S. in Sciences and Technologies, University Pierre et Marie Curie – Sorbonne University, 2014
 
 Work experience
 ======
