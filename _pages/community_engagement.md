@@ -111,6 +111,6 @@ author_profile: true
 * 2018: [Boris Ephrussi Day](https://sites.google.com/site/journeeborisephrussi/) (Sorbonne University - Campus Jussieu - Paris, France)
 * 2017: [Boris Ephrussi Day](https://sites.google.com/site/journeeborisephrussi/) (Institut Pasteur - Paris, France)
 
-## General Public Communications
+## General Public Events
 
-* 2024: Pint of Science Ireland 2024 (Cork, Ireland)
+* 2024: [Pint of Science Ireland](https://www.pintofscienceireland.com/) (Cork, Ireland)
