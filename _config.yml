@@ -8,9 +8,9 @@
 
 # Basic Site Settings
 locale                   : "en-US"
-title                    : "Remi Denise"
+title                    : "Rémi Denise"
 title_separator          : "-"
-name                     : &name "Remi Denise"
+name                     : &name "Rémi Denise"
 description              : &description "personal description"
 url                      : https://rdenise.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
@@ -22,7 +22,7 @@ repository               : "rdenise/rdenise.github.io"
 author:
   # Biographic information
   avatar           : "22-131-4795_background.jpg"
-  name             : "Remi Denise"
+  name             : "Rémi Denise"
   pronouns         : "he/his" 
   bio              : "MSCA Postdoctoral Fellow"
   location         : "Paris, France"
