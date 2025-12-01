@@ -2,8 +2,8 @@
 title: "The Evolution of Protein Secretion Systems by Co-option and Tinkering of Cellular Machineries"
 collection: publications
 publication_type: review
-permalink: /publication/2020-02-13-The-Evolution-of-Protein-Secretion-Systems-by-Co-option-and-Tinkering-of-Cellular-Machineries
-date: 2020-02-13
+permalink: /publication/2020-05-01-The-Evolution-of-Protein-Secretion-Systems-by-Co-option-and-Tinkering-of-Cellular-Machineries
+date: 2020-05-01
 venue: 'Trends Microbiol'
 paperurl: 'https://www.ncbi.nlm.nih.gov/pubmed/32298615'
 halurl: 'https://pasteur.hal.science/pasteur-02626815v1'
