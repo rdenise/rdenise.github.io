@@ -2,8 +2,8 @@
 title: "Evolution of protein secretion systems in bacteria"
 collection: publications
 publication_type: thesis
-permalink: /publication/2019-12-13-PhD-Thesis
-date: 2019-12-13
+permalink: /publication/2019-10-04-PhD-Thesis
+date: 2019-10-04
 venue: 'Sorbonne Université'
 paperurl: 'https://theses.fr/2019SORUS602'
 halurl: 'https://hal.science/tel-03349214v1'

@@ -2,12 +2,12 @@
 title: "Identification of Protein Secretion Systems in Bacterial Genomes Using MacSyFinder Version 2"
 collection: publications
 publication_type: book_chapter
-permalink: /publication/2024-01-01-Identification-of-Protein-Secretion-Systems-in-Bacterial-Genomes-Using-MacSyFinder-Version-2
-date: 2024-01-01
+permalink: /publication/2023-11-07-Identification-of-Protein-Secretion-Systems-in-Bacterial-Genomes-Using-MacSyFinder-Version-2
+date: 2023-11-07
 venue: 'Methods Mol Biol'
 paperurl: 'https://www.ncbi.nlm.nih.gov/pubmed/37930518'
 halurl: 'https://pasteur.hal.science/hal-04257010v1'
-citation: ' S. Abby,  R. Denise,  E. Rocha, <b>Identification of Protein Secretion Systems in Bacterial Genomes Using MacSyFinder Version 2.</b> <i>Methods Mol Biol</i>, 2024.'
+citation: ' S. Abby,  R. Denise,  E. Rocha, <b>Identification of Protein Secretion Systems in Bacterial Genomes Using MacSyFinder Version 2.</b> <i>Methods Mol Biol</i>, 2023.'
 open_access: false
 githuburl: https://github.com/gem-pasteur/macsyfinder
 ---

@@ -2,11 +2,11 @@
 title: "taxmyPHAGE: automated taxonomy of dsDNA phage genomes at the genus and species level"
 collection: publications
 publication_type: research
-permalink: /publication/2025-01-01-taxmyPHAGE
-date: 2025-01-01
+permalink: /publication/2025-03-17-taxmyPHAGE
+date: 2025-03-17
 venue: 'Phage (New Rochelle)'
 paperurl: 'https://pubmed.ncbi.nlm.nih.gov/40351403/'
-citation: 'A. Millard, R. Denise, M. Lestido, M.T. Thomas, D. Webster, S. O''Toole, A. Shkoporov, C. Hill, <b>taxmyPHAGE: automated taxonomy of dsDNA phage genomes at the genus and species level.</b> <i>Phage (New Rochelle)</i>, 2024.'
+citation: 'A. Millard, R. Denise, M. Lestido, M.T. Thomas, D. Webster, S. D. Turner, T. Sicheritz-Pontén, <b>taxmyPHAGE: automated taxonomy of dsDNA phage genomes at the genus and species level.</b> <i>Phage (New Rochelle)</i>, 2025 Mar 17;6(1):5-11.'
 open_access: true
 githuburl: https://github.com/amillard/tax_myPHAGE
 ---

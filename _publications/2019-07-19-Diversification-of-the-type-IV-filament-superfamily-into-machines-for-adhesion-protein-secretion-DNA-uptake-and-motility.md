@@ -2,8 +2,8 @@
 title: "Diversification of the type IV filament superfamily into machines for adhesion, protein secretion, DNA uptake, and motility"
 collection: publications
 publication_type: research
-permalink: /publication/2019-01-01-Diversification-of-the-type-IV-filament-superfamily-into-machines-for-adhesion-protein-secretion-DNA-uptake-and-motility
-date: 2019-01-01
+permalink: /publication/2019-07-19-Diversification-of-the-type-IV-filament-superfamily-into-machines-for-adhesion-protein-secretion-DNA-uptake-and-motility
+date: 2019-07-19
 venue: 'PLoS Biol'
 paperurl: 'https://www.ncbi.nlm.nih.gov/pubmed/31323028'
 halurl: 'https://pasteur.hal.science/pasteur-02263349v1'

@@ -2,8 +2,8 @@
 title: "Isolation and characterization of a novel lytic Parabacteroides distasonis bacteriophage phiPDS1 from the human gut"
 collection: publications
 publication_type: research
-permalink: /publication/2024-01-01-Isolation-and-characterization-of-a-novel-lytic-Parabacteroides-distasonis-bacteriophage-phiPDS1-from-the-human-gut
-date: 2024-01-01
+permalink: /publication/2024-01-04-Isolation-and-characterization-of-a-novel-lytic-Parabacteroides-distasonis-bacteriophage-phiPDS1-from-the-human-gut
+date: 2024-01-04
 venue: 'Gut Microbes'
 paperurl: 'https://www.ncbi.nlm.nih.gov/pubmed/38178369'
 citation: ' A. Cortes-Martin,  R. Denise,  E. Guerin,  S. Stockdale,  L. Draper,  R. Ross,  A. Shkoporov,  C. Hill, <b>Isolation and characterization of a novel lytic Parabacteroides distasonis bacteriophage phiPDS1 from the human gut.</b> <i>Gut Microbes</i>, 2024.'

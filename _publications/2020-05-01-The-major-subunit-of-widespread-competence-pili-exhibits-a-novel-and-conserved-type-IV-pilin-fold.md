@@ -2,10 +2,10 @@
 title: "The major subunit of widespread competence pili exhibits a novel and conserved type IV pilin fold"
 collection: publications
 publication_type: research
-permalink: /publication/2020-01-01-The-major-subunit-of-widespread-competence-pili-exhibits-a-novel-and-conserved-type-IV-pilin-fold
-date: 2020-01-01
+permalink: /publication/2020-05-01-The-major-subunit-of-widespread-competence-pili-exhibits-a-novel-and-conserved-type-IV-pilin-fold
+date: 2020-05-01
 venue: 'J Biol Chem'
-paperurl: 'https://www.nature.com/articles/s41467-020-19687-7'
+paperurl: 'https://www.jbc.org/article/S0021-9258(17)48519-X/fulltext'
 halurl: 'https://pasteur.hal.science/pasteur-03015795v1'
 citation: ' D. Sheppard,  J. Berry,  R. Denise,  E. Rocha,  S. Matthews,  V. Pelicic, <b>The major subunit of widespread competence pili exhibits a novel and conserved type IV pilin fold.</b> <i>J Biol Chem</i>, 2020.'
 open_access: true
