@@ -1,0 +1,11 @@
+---
+title: "Stable co-existence of Citrobacter rodentium with a lytic bacteriophage during in vivo murine infection"
+collection: publications
+publication_type: research
+permalink: /publication/2025-12-29-Stable-co-existence-of-Citrobacter-rodentium-with-a-lytic-bacteriophage
+date: 2025-12-29
+venue: 'mBio'
+paperurl: 'https://journals.asm.org/doi/full/10.1128/mbio.01944-25'
+citation: 'Audrey Peters, Hiba Shareefdeen, Julia Sanchez-Garrido, Eli J. Cohen, Rémi Denise, Joshua L. C. Wong, Morgan Beeby, Colin Hill, Gad Frankel, <b>Stable co-existence of Citrobacter rodentium with a lytic bacteriophage during in vivo murine infection.</b> <i>mBio</i>, 2025.'
+---
+Bacteriophages (phages) are increasingly explored as therapeutic agents against bacterial infections. However, most studies focus on *in vitro* systems, offering limited insight into the complexity of such dynamics in physiological contexts. Here, we use the mouse-restricted enteric pathogen *Citrobacter rodentium* (CR), a well-established model for human enteropathogenic and enterohemorrhagic *Escherichia coli* (EPEC and EHEC) infections, to investigate phage-pathogen interactions in a murine model with a complex microbiota. We isolate and characterize Eifel2, a novel lytic phage infecting CR, and generate anti-phage-specific antibodies that enable the visualization of phage infections *in vitro*. In a murine model of CR infection, oral administration of Eifel2 led to robust phage replication in the gut without reducing the bacterial burden or infection-associated inflammation, confirming the establishment of a stable co-existence in the gut. Despite the emergence of a sub-population of phage-resistant CR mutants *in vivo*, they did not undergo clonal expansion, indicating that additional selective pressures impaired their widespread dissemination in the gut. Together, our findings demonstrate that imaging approaches can capture key infection stages *in vitro*, although *in vivo* models are essential for capturing the complexity of phage-bacteria interactions. This work highlights the importance of studying phage therapy in host-pathogen contexts that include a normal microbiota and a suitable host environment, where dynamic co-existence rather than eradication may define therapeutic outcomes.
