@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-I am a MSCA Data Scientist in Cork, Ireland. I work at [APC Microbiome](https://www.ucc.ie/en/apc/) as part of the Andrey Shkoporov Group.
+I am a MSCA Data Scientist in Cork, Ireland. I work at [APC Microbiome](https://www.ucc.ie/en/apc/).
 
 ## 🔬 Research Interests
 
